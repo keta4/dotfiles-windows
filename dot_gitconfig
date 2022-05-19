@@ -1,0 +1,28 @@
+[user]
+	name = keta4
+	email = 82580781+keta4@users.noreply.github.com
+[ghq]
+	root = D:\\ghq
+	user = keta4
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
+	excludesfile = ~/.gitignore_global
+	ignorecase = false
+[color]
+	ui = auto
+[alias]
+	st = status -sb
+	ad = add -A
+	cm = commit -m
+	p = push
+[interactive]
+	diffFilter = delta --color-only
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[credential]
+	helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager-core.exe
