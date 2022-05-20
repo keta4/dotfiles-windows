@@ -6,4 +6,6 @@ Invoke-Expression (&starship init powershell)
 
 Set-PSReadlineKeyHandler -Key ctrl+d -Function ViExit
 Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
+
 # Set-PSReadlineOption -Colors @{ Prediction = 'DarkGreen' }
