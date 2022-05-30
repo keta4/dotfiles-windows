@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2022-05-19T01:08:56.849-00:00",
+	"CreationDate" : "2022-05-31T00:06:09.962-00:00",
 	"Sources" : 
 	[
 		{
@@ -76,7 +76,16 @@
 					"PackageIdentifier" : "KDE.Kdenlive"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
+				},
+				{
 					"PackageIdentifier" : "Python.Python.3"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.5"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VC++2015-2022Redist-x64"
@@ -88,9 +97,6 @@
 					"PackageIdentifier" : "DuongDieuPhap.ImageGlass"
 				},
 				{
-					"PackageIdentifier" : "Inkscape.Inkscape"
-				},
-				{
 					"PackageIdentifier" : "Giorgiotani.Peazip"
 				},
 				{
@@ -98,6 +104,9 @@
 				},
 				{
 					"PackageIdentifier" : "Google.Drive"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
 					"PackageIdentifier" : "MacType.MacType"
@@ -113,6 +122,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VC++2015-2022Redist-x86"
+				},
+				{
+					"PackageIdentifier" : "Inkscape.Inkscape"
 				},
 				{
 					"PackageIdentifier" : "hluk.CopyQ"
@@ -136,5 +148,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.2.10271"
+	"WinGetVersion" : "1.2.10941"
 }
