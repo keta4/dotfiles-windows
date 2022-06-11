@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2022-05-31T00:06:09.962-00:00",
+	"CreationDate" : "2022-06-12T00:30:40.794-00:00",
 	"Sources" : 
 	[
 		{
@@ -94,10 +94,13 @@
 					"PackageIdentifier" : "gerardog.gsudo"
 				},
 				{
-					"PackageIdentifier" : "DuongDieuPhap.ImageGlass"
+					"PackageIdentifier" : "BlenderFoundation.Blender"
 				},
 				{
 					"PackageIdentifier" : "Giorgiotani.Peazip"
+				},
+				{
+					"PackageIdentifier" : "DuongDieuPhap.ImageGlass"
 				},
 				{
 					"PackageIdentifier" : "PicoTorrent.PicoTorrent"
@@ -113,12 +116,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode"
-				},
-				{
-					"PackageIdentifier" : "BlenderFoundation.Blender"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VC++2015-2022Redist-x86"
@@ -137,6 +134,9 @@
 				},
 				{
 					"PackageIdentifier" : "QL-Win.QuickLook"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
 				}
 			],
 			"SourceDetails" : 
