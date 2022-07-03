@@ -1,4 +1,4 @@
 processors=4
-memory=2GB
+memory=1GB
 swap=0
 localhostForwarding=true
