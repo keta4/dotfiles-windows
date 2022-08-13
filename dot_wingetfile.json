@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2022-07-22T23:17:13.581-00:00",
+	"CreationDate" : "2022-08-14T03:15:12.229-00:00",
 	"Sources" : 
 	[
 		{
@@ -32,9 +32,6 @@
 				},
 				{
 					"PackageIdentifier" : "CrystalDewWorld.CrystalDiskMark"
-				},
-				{
-					"PackageIdentifier" : "voidtools.Everything"
 				},
 				{
 					"PackageIdentifier" : "FastCopy.FastCopy"
@@ -85,31 +82,40 @@
 					"PackageIdentifier" : "KDE.Kdenlive"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome"
-				},
-				{
-					"PackageIdentifier" : "Zoom.Zoom"
-				},
-				{
 					"PackageIdentifier" : "ALCPU.CoreTemp"
 				},
 				{
 					"PackageIdentifier" : "DuongDieuPhap.ImageGlass"
 				},
 				{
+					"PackageIdentifier" : "Python.Python.3"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.5"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
+					"PackageIdentifier" : "Google.JapaneseIME"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2015-2022Redist-x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.Runtime.6"
 				},
 				{
 					"PackageIdentifier" : "gerardog.gsudo"
 				},
 				{
 					"PackageIdentifier" : "Giorgiotani.Peazip"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
 					"PackageIdentifier" : "PicoTorrent.PicoTorrent"
@@ -124,19 +130,25 @@
 					"PackageIdentifier" : "Microsoft.VisualStudioCode"
 				},
 				{
-					"PackageIdentifier" : "Inkscape.Inkscape"
+					"PackageIdentifier" : "BlenderFoundation.Blender"
 				},
 				{
 					"PackageIdentifier" : "hluk.CopyQ"
 				},
 				{
-					"PackageIdentifier" : "BlenderFoundation.Blender"
+					"PackageIdentifier" : "voidtools.Everything"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
+					"PackageIdentifier" : "Google.Chrome"
+				},
+				{
+					"PackageIdentifier" : "Zoom.Zoom"
 				},
 				{
 					"PackageIdentifier" : "Alacritty.Alacritty"
+				},
+				{
+					"PackageIdentifier" : "Inkscape.Inkscape"
 				},
 				{
 					"PackageIdentifier" : "QL-Win.QuickLook"
@@ -145,17 +157,17 @@
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
 				},
 				{
-					"PackageIdentifier" : "Python.Python.3"
+					"PackageIdentifier" : "Microsoft.DotNet.Runtime.6"
 				}
 			],
 			"SourceDetails" : 
 			{
-				"Argument" : "https://winget.azureedge.net/cache",
+				"Argument" : "https://cdn.winget.microsoft.com/cache",
 				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
 				"Name" : "winget",
 				"Type" : "Microsoft.PreIndexed.Package"
 			}
 		}
 	],
-	"WinGetVersion" : "1.2.11601"
+	"WinGetVersion" : "1.3.2091"
 }
