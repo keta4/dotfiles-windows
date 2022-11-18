@@ -1,51 +1,117 @@
 {
-    "workbench.colorTheme": "GitHub Dark Dimmed",
-    "security.workspace.trust.untrustedFiles": "open",
-    "files.insertFinalNewline": true,
+    // アイコンテーマ
+    "workbench.iconTheme": "material-icon-theme",
+    // focus外したら保存
+    "files.autoSave": "onFocusChange",
+    // タブサイズ
+    "editor.tabSize": 2,
+    // defaultのformatter
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // 保存時にフォーマッターが走る
+    "editor.formatOnSave": true,
+    // prettier:シングルクォートをdefaultにする
+    "prettier.singleQuote": true,
+    // ファイル保存時にESLintでフォーマット
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    // fonts
+    "scm.inputFontFamily": "Consolas, 'Courier New', monospace",
     "editor.fontFamily": "'Hack NF', Consolas, 'Courier New', monospace",
+    "editor.inlayHints.fontFamily": "Consolas, 'Courier New', monospace",
+    "markdown.preview.fontFamily": "Consolas, 'Courier New', monospace",
+    "debug.console.fontFamily": "Consolas, 'Courier New', monospace",
+    "rest-client.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.codeLensFontFamily": "Consolas, 'Courier New', monospace",
+    // codic:API_TOKEN
+    "codic.ACCESS_TOKEN": "hoge",
+    // codic:camelcase を default
+    "codic.case": "camelCase",
+    // 入力中に候補を自動的に表示するかどうかを制御します。
+    // "editor.quickSuggestions": true,
+    // 無駄なホワイトスペースを削除
+    "files.trimTrailingWhitespace": true,
+    // ブレイクポイントのスペースを削除
+    "editor.glyphMargin": false,
+    // ミニマップを削除
+    "editor.minimap.enabled": false,
+    // 大きすぎるUIを小さくする。
+    // "window.zoomLevel": -1,
+    // font-sizeをあげてる。
     "editor.fontSize": 15,
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.editor.wrapTabs": true,
+    // "terminal.integrated.fontSize": 20,
+    // "debug.console.fontSize": 20,
+    // codeコマンドでファイルを開いたとき、既に開いているウインドウがあればそこに表示する。
+    "window.openFilesInNewWindow": "off",
+    // タブの名前の長さに応じてタブの幅が変更される
     "workbench.editor.tabSizing": "shrink",
-    "editor.letterSpacing": -0.1,
-    // "editor.lineHeight": 22,
+    // 文字の間隔を狭める
+    "editor.letterSpacing": -0.2,
+    "editor.lineHeight": 21,
+    // プレビューモードで開かれるのを阻止します
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "extensions.ignoreRecommendations": true,
-    "git.confirmSync": false,
-    "git.suggestSmartCommit": false,
-    "editor.minimap.enabled": false,
-    "editor.mouseWheelZoom": true,
-    "editor.glyphMargin": false,
-    "window.menuBarVisibility": "toggle",
-    "window.openFilesInNewWindow": "off",
-    "workbench.iconTheme": "material-icon-theme",
+    // 開始と終了のブラケットをセットで同じカラーにします。
     "editor.bracketPairColorization.enabled": true,
+    // 開始と終了のブラケットが強調表示されます。
     "editor.guides.bracketPairs": true,
-    "editor.guides.bracketPairsHorizontal": true,
+    // タブステップ中も入力補完を有効にする
     "editor.suggest.snippetsPreventQuickSuggestions": false,
+    // 入力候補の1番目を最初に選択しておく
+    "editor.suggestSelection": "first",
+    // vsintellicode:AIによる予測変換の結果を上にくるようにする。
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // vscodeを立ち上げた時に表示される画面を変更します。
+    "workbench.startupEditor": "none",
+    // テキストコピー時に書式設定を含める
+    "editor.copyWithSyntaxHighlighting": false,
+    // importが入力補完される
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    // ファイルを移動した時にimportのパスが変わっても自動で更新される
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    // コンソールなどの画面を右側に配置します
+    "workbench.panel.defaultLocation": "right",
+    // 引数の名前が表示されます。
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "typescript.inlayHints.parameterNames.enabled": "all",
+    // vscode の window 上部の名前を変更します
     "window.title": "${dirty}\\${activeEditorMedium}${separator}${rootName}",
-    "workbench.tree.indent": 16,
+    // ファイルツリーにインデントのガイド線を表示する
     "workbench.tree.renderIndentGuides": "always",
+    // ファイルツリーにインデントのサイズを変更する
+    "workbench.tree.indent": 16,
+    // vscode のテーマを変更します。
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    // ターミナルで選択するとコピー、右クリックで貼り付け出来るようにする
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.rightClickBehavior": "paste",
+    // git リポジトリを同期する前に確認しないようにする。
+    "git.confirmSync": false,
+    // vscodeのカーソルを変更する
+    "editor.cursorStyle": "block",
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#f858f07f",
+        "terminalCursor.foreground": "#f858f07f"
+    },
+    "editor.cursorBlinking": "expand",
+    // カーソルがにゅるっと移動する
     "editor.cursorSmoothCaretAnimation": true,
-    "editor.cursorBlinking": "smooth",
-    "python.venvFolders": [
-        "\".venv\""
-    ],
-    "python.defaultInterpreterPath": "${env:LOCALAPPDATA}\\Programs\\Python\\Python310\\python.exe",
-    "python.formatting.provider": "black",
-    "python.formatting.blackArgs": [
-        "--line-length",
-        "119"
-    ],
-    "python.linting.flake8Enabled": true,
-    "python.linting.flake8Args": [
-        "--ignore=W293, W504",
-        "--max-line-length",
-        "119",
-        "--max-complexity=20"
-    ],
-    "python.analysis.typeCheckingMode": "basic",
+    // 制御文字を表示する
+    "editor.renderControlCharacters": true,
+    // 選択行の行番号をハイライトする
+    "editor.renderLineHighlight": "all",
+    // ファイルの自動エンコードを実施
+    "files.autoGuessEncoding": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.insertFinalNewline": true,
+    "workbench.editor.wrapTabs": true,
+    "extensions.ignoreRecommendations": true,
+    "git.suggestSmartCommit": false,
+    // ズームレベルをマウスホイールで調整する
+    "editor.mouseWheelZoom": true,
+    "editor.guides.bracketPairsHorizontal": true,
     "editor.inlineSuggest.enabled": true,
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "git.autofetch": true,
@@ -53,9 +119,9 @@
     "[markdown]": {
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
     },
-    "editor.formatOnSave": true,
     "editor.unicodeHighlight.nonBasicASCII": false,
-    "editor.unicodeHighlight.invisibleCharacters": false
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "prettier.tabWidth": 4
 }
 
 // https://zenn.dev/ruru/articles/396265425c9740
