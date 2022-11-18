@@ -7,7 +7,7 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.wrapTabs": true,
     "workbench.editor.tabSizing": "shrink",
-    // "editor.letterSpacing": -0.3,
+    "editor.letterSpacing": -0.1,
     // "editor.lineHeight": 22,
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
