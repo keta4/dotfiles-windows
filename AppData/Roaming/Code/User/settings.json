@@ -20,6 +20,7 @@
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": true,
     "editor.guides.bracketPairsHorizontal": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
     "window.title": "${dirty}\\${activeEditorMedium}${separator}${rootName}",
     "workbench.tree.indent": 16,
     "workbench.tree.renderIndentGuides": "always",
