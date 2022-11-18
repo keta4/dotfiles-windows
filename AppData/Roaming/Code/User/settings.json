@@ -4,6 +4,7 @@
     "files.insertFinalNewline": true,
     "editor.fontFamily": "'Hack NF', Consolas, 'Courier New', monospace",
     "editor.fontSize": 15,
+    "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.wrapTabs": true,
     "workbench.editor.tabSizing": "shrink",
     // "editor.letterSpacing": -0.3,
@@ -25,7 +26,6 @@
     "workbench.tree.indent": 16,
     "workbench.tree.renderIndentGuides": "always",
     "editor.cursorSmoothCaretAnimation": true,
-    "workbench.startupEditor": "newUntitledFile",
     "python.venvFolders": [
         "\".venv\""
     ],
