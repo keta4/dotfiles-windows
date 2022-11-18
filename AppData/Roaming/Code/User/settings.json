@@ -43,5 +43,6 @@
     },
     "editor.formatOnSave": true,
     "editor.unicodeHighlight.nonBasicASCII": false,
-    "editor.unicodeHighlight.invisibleCharacters": false
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.fontFamily": "'Hack NF', Consolas, 'Courier New', monospace"
 }
