@@ -1,0 +1,47 @@
+{
+    "extensions.ignoreRecommendations": true,
+    "git.confirmSync": false,
+    "git.suggestSmartCommit": false,
+    "editor.fontSize": 15,
+    "files.insertFinalNewline": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": true,
+    "window.title": "${dirty}\\${activeEditorMedium}${separator}${rootName}",
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "always",
+    "editor.cursorSmoothCaretAnimation": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "python.venvFolders": [
+        "\".venv\""
+    ],
+    "python.defaultInterpreterPath": "${env:LOCALAPPDATA}\\Programs\\Python\\Python310\\python.exe",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "119"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=W293, W504",
+        "--max-line-length",
+        "119",
+        "--max-complexity=20"
+    ],
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.inlineSuggest.enabled": true,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "git.autofetch": true,
+    "window.restoreWindows": "none",
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "editor.formatOnSave": true,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.unicodeHighlight.invisibleCharacters": false
+}
