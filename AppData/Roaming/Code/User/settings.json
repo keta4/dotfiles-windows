@@ -1,4 +1,5 @@
 {
+    "editor.fontFamily": "'Hack NF', Consolas, 'Courier New', monospace",
     "extensions.ignoreRecommendations": true,
     "git.confirmSync": false,
     "git.suggestSmartCommit": false,
@@ -43,6 +44,5 @@
     },
     "editor.formatOnSave": true,
     "editor.unicodeHighlight.nonBasicASCII": false,
-    "editor.unicodeHighlight.invisibleCharacters": false,
-    "editor.fontFamily": "'Hack NF', Consolas, 'Courier New', monospace"
+    "editor.unicodeHighlight.invisibleCharacters": false
 }
