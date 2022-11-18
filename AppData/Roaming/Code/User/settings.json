@@ -8,6 +8,8 @@
     "workbench.editor.tabSizing": "shrink",
     // "editor.letterSpacing": -0.3,
     // "editor.lineHeight": 22,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
     "extensions.ignoreRecommendations": true,
     "git.confirmSync": false,
     "git.suggestSmartCommit": false,
