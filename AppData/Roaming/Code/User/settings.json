@@ -56,3 +56,7 @@
     "editor.unicodeHighlight.nonBasicASCII": false,
     "editor.unicodeHighlight.invisibleCharacters": false
 }
+
+// https://zenn.dev/ruru/articles/396265425c9740
+// https://www.kurusugawa.jp/20210512-vscode-wide-area/
+// https://qiita.com/papi_tokei/items/c639dc7d1e0f5ad68a74
