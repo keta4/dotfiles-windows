@@ -18,6 +18,7 @@
     "window.openFilesInNewWindow": "off",
     "editor.mouseWheelZoom": true,
     "editor.glyphMargin": false,
+    "window.menuBarVisibility": "toggle",
     "workbench.iconTheme": "material-icon-theme",
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": true,
