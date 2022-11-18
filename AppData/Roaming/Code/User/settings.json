@@ -17,6 +17,7 @@
     "editor.minimap.enabled": false,
     "window.openFilesInNewWindow": "off",
     "editor.mouseWheelZoom": true,
+    "editor.glyphMargin": false,
     "workbench.iconTheme": "material-icon-theme",
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": true,
