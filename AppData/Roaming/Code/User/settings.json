@@ -7,8 +7,6 @@
     "editor.tabSize": 2,
     // defaultのformatter
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    // 保存時にフォーマッターが走る
-    "editor.formatOnSave": true,
     // prettier:シングルクォートをdefaultにする
     "prettier.singleQuote": true,
     // ファイル保存時にESLintでフォーマット
@@ -25,7 +23,7 @@
     // "editor.codeLensFontFamily": "Consolas, 'Courier New', monospace",
     // 入力中に候補を自動的に表示するかどうかを制御します。
     // "editor.quickSuggestions": true,
-    // 無駄なホワイトスペースを削除
+    // ファイル保存時に各行の末尾にある半角スペースを削除
     "files.trimTrailingWhitespace": true,
     // ブレイクポイントのスペースを削除
     "editor.glyphMargin": false,
@@ -100,16 +98,51 @@
     "editor.renderLineHighlight": "all",
     // ファイルの自動エンコードを実施
     "files.autoGuessEncoding": true,
-    "security.workspace.trust.untrustedFiles": "open",
+    // デバッグ中に行内に変数値を表示
+    "debug.inlineValues": "on",
+    // デバッグコンソールの表示方法
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    // デバッグビューの表示方法
+    "debug.openDebug": "openOnSessionStart",
+    // ドラッグアンドドロップで選択範囲のテキストを移動できるようにする
+    "editor.dragAndDrop": false,
+    // 貼り付けを行ったときに自動でフォーマット
+    "editor.formatOnPaste": true,
+    // ファイル保存時に自動でフォーマット
+    "editor.formatOnSave": true,
+    // 入力した行を自動でフォーマット
+    "editor.formatOnType": true,
+    // 行の折りたたみ記号の表示方法
+    "editor.showFoldingControls": "always",
+    // 単語の区切り文字
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?　、。！？「」【】『』（）",
+    // 行の折り返し表示
+    "editor.wordWrap": "on",
+    // 名前重複時の名前付け規則
+    "explorer.incrementalNaming": "smart",
+    // ファイル保存時に最終行に改行を挿入
     "files.insertFinalNewline": true,
+    // ファイル保存時に最終行以降の空行を削除
+    "files.trimFinalNewlines": true,
+    // 検索ビューの検索結果に行数を併記
+    "search.showLineNumbers": true,
+    // アクティブなターミナルセッションがある場合、終了時に確認を行う
+    "terminal.integrated.confirmOnExit": "always",
+    // 信頼されたワークスペースで信頼されていないファイルを開くときの取り扱いを制御します
+    "security.workspace.trust.untrustedFiles": "open",
+    // 使用可能なスペースを超えたときにタブを複数行に折り返す
     "workbench.editor.wrapTabs": true,
+    // 拡張機能の推奨事項の通知を表示しません
     "extensions.ignoreRecommendations": true,
     "git.suggestSmartCommit": false,
-    // ズームレベルをマウスホイールで調整する
+    // Ctrl キーを押しながらマウス ホイールを使用してエディターのフォントをズームします
     "editor.mouseWheelZoom": true,
+    // 水平方向のブラケット ペアのガイドを有効にする
     "editor.guides.bracketPairsHorizontal": true,
+    // エディターにインライン候補を自動的に表示する
     "editor.inlineSuggest.enabled": true,
     "editor.unicodeHighlight.ambiguousCharacters": false,
+    // commits will automatically be fetched from the default remote of the current Git repository.
     "git.autofetch": true,
     "window.restoreWindows": "none",
     "[markdown]": {
@@ -121,5 +154,6 @@
 }
 
 // https://zenn.dev/ruru/articles/396265425c9740
+// https://www.cview.co.jp/cvcblog/2021.04.20.dYMmFSxAihNBwoEkCys_X
 // https://www.kurusugawa.jp/20210512-vscode-wide-area/
 // https://qiita.com/papi_tokei/items/c639dc7d1e0f5ad68a74
