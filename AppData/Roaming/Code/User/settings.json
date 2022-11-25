@@ -150,7 +150,10 @@
     },
     "editor.unicodeHighlight.nonBasicASCII": false,
     "editor.unicodeHighlight.invisibleCharacters": false,
-    "prettier.tabWidth": 4
+    "prettier.tabWidth": 4,
+    "[sql]": {
+        "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+    }
 }
 
 // https://zenn.dev/ruru/articles/396265425c9740
