@@ -156,7 +156,8 @@
     },
     "[java]": {
         "editor.tabSize": 4
-    }
+    },
+    "java.jdt.ls.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.5.8-hotspot"
 }
 
 // https://zenn.dev/ruru/articles/396265425c9740
