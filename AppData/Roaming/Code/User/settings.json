@@ -155,9 +155,14 @@
         "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
     },
     "[java]": {
-        "editor.tabSize": 4
+        "editor.tabSize": 4,
+        "editor.glyphMargin": true
     },
-    "java.jdt.ls.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.5.8-hotspot"
+    "java.jdt.ls.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.5.8-hotspot",
+    "java.saveActions.organizeImports": true,
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.dependency.syncWithFolderExplorer": true,
+    "java.configuration.updateBuildConfiguration": "automatic"
 }
 
 // https://zenn.dev/ruru/articles/396265425c9740
