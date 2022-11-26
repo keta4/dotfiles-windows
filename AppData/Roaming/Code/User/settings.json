@@ -153,6 +153,9 @@
     "prettier.tabWidth": 4,
     "[sql]": {
         "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+    },
+    "[java]": {
+        "editor.tabSize": 4
     }
 }
 
