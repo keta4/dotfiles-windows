@@ -28,7 +28,7 @@
     // クイック候補が表示されるまでのミリ秒を制御します。
     "editor.quickSuggestionsDelay": 1,
     // これをfalseにするとkeywordだけ消してくれる
-    "editor.suggest.showKeywords": false,
+    // "editor.suggest.showKeywords": false,
     // textもいらないので消す
     "editor.suggest.showWords": false,
     // タブステップ中も入力補完を有効にする
@@ -153,6 +153,7 @@
     "editor.guides.bracketPairsHorizontal": true,
     // エディターにインライン候補を自動的に表示する
     "editor.inlineSuggest.enabled": true,
+    // 現在のユーザー ロケールで一般的な文字を除き、基本的な ASCII 文字と混同される可能性のある文字を強調表示するかどうかを制御します。
     "editor.unicodeHighlight.ambiguousCharacters": false,
     // commits will automatically be fetched from the default remote of the current Git repository.
     "git.autofetch": true,
