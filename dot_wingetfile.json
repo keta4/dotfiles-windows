@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2022-10-21T12:50:40.397-00:00",
+	"CreationDate" : "2022-11-30T18:16:36.855-00:00",
 	"Sources" : 
 	[
 		{
@@ -55,6 +55,9 @@
 					"PackageIdentifier" : "HandBrake.HandBrake"
 				},
 				{
+					"PackageIdentifier" : "JetBrains.IntelliJIDEA.Community"
+				},
+				{
 					"PackageIdentifier" : "XBMCFoundation.Kodi"
 				},
 				{
@@ -82,13 +85,16 @@
 					"PackageIdentifier" : "Levitsky.FontBase"
 				},
 				{
+					"PackageIdentifier" : "PeterPawlowski.foobar2000"
+				},
+				{
 					"PackageIdentifier" : "KDE.Kdenlive"
 				},
 				{
 					"PackageIdentifier" : "ALCPU.CoreTemp"
 				},
 				{
-					"PackageIdentifier" : "DuongDieuPhap.ImageGlass"
+					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
 					"PackageIdentifier" : "Alacritty.Alacritty"
@@ -97,28 +103,31 @@
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.5"
 				},
 				{
+					"PackageIdentifier" : "voidtools.Everything"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
+					"PackageIdentifier" : "Python.Python.3.10"
 				},
 				{
-					"PackageIdentifier" : "Cloudflare.Warp"
+					"PackageIdentifier" : "Google.Chrome"
+				},
+				{
+					"PackageIdentifier" : "DuongDieuPhap.ImageGlass"
 				},
 				{
 					"PackageIdentifier" : "Giorgiotani.Peazip"
 				},
 				{
-					"PackageIdentifier" : "calibre.calibre"
+					"PackageIdentifier" : "Cloudflare.Warp"
 				},
 				{
-					"PackageIdentifier" : "voidtools.Everything"
+					"PackageIdentifier" : "Microsoft.VCRedist.2008.x64"
 				},
 				{
 					"PackageIdentifier" : "PicoTorrent.PicoTorrent"
-				},
-				{
-					"PackageIdentifier" : "gerardog.gsudo"
 				},
 				{
 					"PackageIdentifier" : "Google.Drive"
@@ -133,28 +142,37 @@
 					"PackageIdentifier" : "Zoom.Zoom"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86"
+				},
+				{
 					"PackageIdentifier" : "hluk.CopyQ"
 				},
 				{
 					"PackageIdentifier" : "BlenderFoundation.Blender"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome"
-				},
-				{
-					"PackageIdentifier" : "Inkscape.Inkscape"
+					"PackageIdentifier" : "gerardog.gsudo"
 				},
 				{
 					"PackageIdentifier" : "QL-Win.QuickLook"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+					"PackageIdentifier" : "Inkscape.Inkscape"
+				},
+				{
+					"PackageIdentifier" : "EclipseAdoptium.Temurin.17.JDK"
+				},
+				{
+					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				}
 			],
 			"SourceDetails" : 
