@@ -44,7 +44,7 @@
     // 大きすぎるUIを小さくする。
     // "window.zoomLevel": -1,
     // font-sizeをあげてる。
-    "editor.fontSize": 15,
+    "editor.fontSize": 14,
     // "terminal.integrated.fontSize": 20,
     // "debug.console.fontSize": 20,
     // codeコマンドでファイルを開いたとき、既に開いているウインドウがあればそこに表示する。
@@ -52,8 +52,8 @@
     // タブの名前の長さに応じてタブの幅が変更される
     "workbench.editor.tabSizing": "shrink",
     // 文字の間隔を狭める
-    "editor.letterSpacing": -0.2,
-    "editor.lineHeight": 21,
+    "editor.letterSpacing": -0.5,
+    "editor.lineHeight": 20,
     // プレビューモードで開かれるのを阻止します
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
@@ -180,6 +180,8 @@
         "editor.defaultFormatter": "redhat.java"
     },
     "java.jdt.ls.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.5.8-hotspot",
+    "java.format.settings.profile": "GoogleStyle",
+    "java.format.settings.url": "${workspaceFolder}\\.vscode\\eclipse-java-google-style.xml",
     "java.saveActions.organizeImports": true,
     "java.dependency.packagePresentation": "hierarchical",
     "java.dependency.syncWithFolderExplorer": true,
