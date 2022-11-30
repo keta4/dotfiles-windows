@@ -52,8 +52,8 @@
     // タブの名前の長さに応じてタブの幅が変更される
     "workbench.editor.tabSizing": "shrink",
     // 文字の間隔を狭める
-    "editor.letterSpacing": -0.5,
-    "editor.lineHeight": 20,
+    "editor.letterSpacing": -0.3,
+    "editor.lineHeight": 21,
     // プレビューモードで開かれるのを阻止します
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
