@@ -95,6 +95,12 @@
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?　、。！？「」【】『』（）にをはがのともへ",
     // 行の折り返し表示
     "editor.wordWrap": "on",
+    // Enable Emmet abbreviations in languages that are not supported by default.
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact, css, html",
+        "vue": "html, css"
+    },
+    // Define profile for specified syntax or use your own profile with specific rules.
     "emmet.syntaxProfiles": {
         "html": {
             "filters": "html,c"
