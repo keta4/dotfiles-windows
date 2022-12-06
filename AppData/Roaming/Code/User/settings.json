@@ -101,6 +101,8 @@
     "extensions.ignoreRecommendations": true,
     // ファイルの自動エンコードを実施
     "files.autoGuessEncoding": true,
+    // 改行コード
+    "files.eol": "\n",
     // ファイル保存時に最終行に改行を挿入
     "files.insertFinalNewline": true,
     // ファイル保存時に最終行以降の空行を削除
@@ -151,9 +153,13 @@
         "sortJSONValuesReverse": false
     },
     // Settings to underride the sort order (i.e. to be at the end of the order)
-    "sortJSON.orderUnderride": ["[java]", "[markdown]", "[sql]"],
-    // アクティブなターミナルセッションがある場合、終了時に確認を行う
-    "terminal.integrated.confirmOnExit": "always",
+    "sortJSON.orderUnderride": [
+        "[java]",
+        "[markdown]",
+        "[powershell]",
+        "[python]",
+        "[sql]"
+    ],
     // ターミナルで選択するとコピー、右クリックで貼り付け出来るようにする
     "terminal.integrated.copyOnSelection": true,
     // 右クリックに対するターミナルの反応を制御します。
@@ -209,7 +215,15 @@
         "editor.tabSize": 4
     },
     "[markdown]": {
-        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+        "files.trimTrailingWhitespace": false
+    },
+    "[powershell]": {
+        "files.eol": "\r\n"
+    },
+    "[python]": {
+        "editor.tabSize": 4,
+        "gitlens.codeLens.symbolScopes": ["!Module"]
     },
     "[sql]": {
         "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
