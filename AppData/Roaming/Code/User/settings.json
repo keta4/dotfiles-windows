@@ -11,7 +11,8 @@
     "editor.bracketPairColorization.enabled": true,
     // ファイル保存時にESLintでフォーマット
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+        "source.fixAll.eslint": true,
+        "source.organizeImports": true
     },
     // CodeLens のフォント ファミリを制御します。
     "editor.codeLensFontFamily": "Consolas, 'Courier New', monospace",
