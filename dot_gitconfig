@@ -28,3 +28,5 @@
 	helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager-core.exe
 [safe]
 	directory = D:/ghq/setup-windows
+[rebase]
+	autostash = true

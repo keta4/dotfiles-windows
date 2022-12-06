@@ -23,10 +23,10 @@
     "editor.cursorSmoothCaretAnimation": true,
     // vscodeのカーソルを変更する
     "editor.cursorStyle": "block",
-    // defaultのformatter
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
     // ドラッグアンドドロップで選択範囲のテキストを移動できるようにする
     "editor.dragAndDrop": false,
+    // 選択範囲を指定しないでコピーする場合に現在の行をコピーするかどうかを制御します。
+    "editor.emptySelectionClipboard": false,
     // フォント ファミリを制御します。
     "editor.fontFamily": "'Hack NF', Consolas, 'Courier New', monospace",
     // font-sizeをあげてる。
@@ -68,6 +68,8 @@
     "editor.renderControlCharacters": true,
     // 選択行の行番号をハイライトする
     "editor.renderLineHighlight": "all",
+    // 選択範囲の角を丸くするかどうかを制御します。
+    "editor.roundedSelection": false,
     // 行の折りたたみ記号の表示方法
     "editor.showFoldingControls": "always",
     // これをfalseにするとkeywordだけ消してくれる
@@ -86,8 +88,10 @@
     "editor.unicodeHighlight.invisibleCharacters": false,
     // 基本 ASCII 以外のすべての文字を強調表示するかどうかを制御します。
     "editor.unicodeHighlight.nonBasicASCII": false,
+    // ドキュメント内の単語に基づいて入力候補を計算するかどうかを制御します。
+    "editor.wordBasedSuggestions": false,
     // 単語の区切り文字
-    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?　、。！？「」【】『』（）",
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?　、。！？「」【】『』（）にをはがのともへ",
     // 行の折り返し表示
     "editor.wordWrap": "on",
     "emmet.syntaxProfiles": {
@@ -155,10 +159,16 @@
     // Settings to underride the sort order (i.e. to be at the end of the order)
     "sortJSON.orderUnderride": [
         "[java]",
+        "[javascript]",
+        "[javascriptreact]",
+        "[json]",
+        "[jsonc]",
         "[markdown]",
         "[powershell]",
         "[python]",
-        "[sql]"
+        "[sql]",
+        "[typescript]",
+        "[typescriptreact]"
     ],
     // ターミナルで選択するとコピー、右クリックで貼り付け出来るようにする
     "terminal.integrated.copyOnSelection": true,
@@ -214,6 +224,18 @@
         "editor.glyphMargin": true,
         "editor.tabSize": 4
     },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "[markdown]": {
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
         "files.trimTrailingWhitespace": false
@@ -227,6 +249,12 @@
     },
     "[sql]": {
         "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 }
 // https://zenn.dev/ruru/articles/396265425c9740
@@ -234,3 +262,4 @@
 // https://www.cview.co.jp/cvcblog/2021.04.20.dYMmFSxAihNBwoEkCys_X
 // https://www.kurusugawa.jp/20210512-vscode-wide-area/
 // https://qiita.com/papi_tokei/items/c639dc7d1e0f5ad68a74
+// https://www.off-soft.net/ja/software/develop2/visual-studio-code-preuse-settings.html
