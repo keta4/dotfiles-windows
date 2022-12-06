@@ -1,32 +1,75 @@
 {
-    // アイコンテーマ
-    "workbench.iconTheme": "material-icon-theme",
-    // タブサイズ
-    "editor.tabSize": 2,
-    // defaultのformatter
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    // prettier:シングルクォートをdefaultにする
-    "prettier.singleQuote": true,
+    // デバッグ コンソールのフォント ファミリを制御します。
+    "debug.console.fontFamily": "Consolas, 'Courier New', monospace",
+    // デバッグ中に行内に変数値を表示
+    "debug.inlineValues": "on",
+    // デバッグコンソールの表示方法
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    // デバッグビューの表示方法
+    "debug.openDebug": "openOnSessionStart",
+    // 開始と終了のブラケットをセットで同じカラーにします。
+    "editor.bracketPairColorization.enabled": true,
     // ファイル保存時にESLintでフォーマット
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
-    // fonts
-    // "scm.inputFontFamily": "Consolas, 'Courier New', monospace",
+    // CodeLens のフォント ファミリを制御します。
+    "editor.codeLensFontFamily": "Consolas, 'Courier New', monospace",
+    // テキストコピー時に書式設定を含める
+    "editor.copyWithSyntaxHighlighting": false,
+    // カーソルのアニメーション方式を制御します。
+    "editor.cursorBlinking": "expand",
+    // カーソルがにゅるっと移動する
+    "editor.cursorSmoothCaretAnimation": true,
+    // vscodeのカーソルを変更する
+    "editor.cursorStyle": "block",
+    // defaultのformatter
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // ドラッグアンドドロップで選択範囲のテキストを移動できるようにする
+    "editor.dragAndDrop": false,
+    // フォント ファミリを制御します。
     "editor.fontFamily": "'Hack NF', Consolas, 'Courier New', monospace",
-    // "editor.inlayHints.fontFamily": "Consolas, 'Courier New', monospace",
-    // "markdown.preview.fontFamily": "Consolas, 'Courier New', monospace",
-    // "debug.console.fontFamily": "Consolas, 'Courier New', monospace",
-    // "rest-client.fontFamily": "Consolas, 'Courier New', monospace",
-    // "editor.codeLensFontFamily": "Consolas, 'Courier New', monospace",
+    // font-sizeをあげてる。
+    "editor.fontSize": 14,
+    // 貼り付けを行ったときに自動でフォーマット
+    "editor.formatOnPaste": true,
+    // ファイル保存時に自動でフォーマット
+    "editor.formatOnSave": true,
+    // 入力した行を自動でフォーマット
+    "editor.formatOnType": true,
+    // ブレイクポイントのスペースを削除
+    "editor.glyphMargin": false,
+    // 開始と終了のブラケットが強調表示されます。
+    "editor.guides.bracketPairs": true,
+    // 水平方向のブラケット ペアのガイドを有効にする
+    "editor.guides.bracketPairsHorizontal": true,
+    // エディターで解説ヒントのフォント ファミリを制御します。
+    "editor.inlayHints.fontFamily": "Consolas, 'Courier New', monospace",
+    // エディターにインライン候補を自動的に表示する
+    "editor.inlineSuggest.enabled": true,
+    // 文字の間隔を狭める
+    "editor.letterSpacing": -0.3,
+    "editor.lineHeight": 21,
+    // リンクされた編集がエディターで有効にされるかどうかを制御します。e.g. HTML
+    "editor.linkedEditing": true,
+    // ミニマップを削除
+    "editor.minimap.enabled": false,
+    // Ctrl キーを押しながらマウス ホイールを使用してエディターのフォントをズームします
+    "editor.mouseWheelZoom": true,
     // 入力中に候補を自動的に表示するかどうかを制御します。
     "editor.quickSuggestions": {
-        "other": "on",
         "comments": "off",
+        "other": "on",
         "strings": "off"
     },
     // クイック候補が表示されるまでのミリ秒を制御します。
     "editor.quickSuggestionsDelay": 1,
+    // 制御文字を表示する
+    "editor.renderControlCharacters": true,
+    // 選択行の行番号をハイライトする
+    "editor.renderLineHighlight": "all",
+    // 行の折りたたみ記号の表示方法
+    "editor.showFoldingControls": "always",
     // これをfalseにするとkeywordだけ消してくれる
     // "editor.suggest.showKeywords": false,
     // textもいらないので消す
@@ -35,160 +78,145 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     // 候補リストを表示するときに候補を事前に選択する方法を制御します。
     "editor.suggestSelection": "recentlyUsedByPrefix",
-    // ファイル保存時に各行の末尾にある半角スペースを削除
-    "files.trimTrailingWhitespace": true,
-    // ブレイクポイントのスペースを削除
-    "editor.glyphMargin": false,
-    // ミニマップを削除
-    "editor.minimap.enabled": false,
-    // 大きすぎるUIを小さくする。
-    // "window.zoomLevel": -1,
-    // font-sizeをあげてる。
-    "editor.fontSize": 14,
-    // "terminal.integrated.fontSize": 20,
-    // "debug.console.fontSize": 20,
-    // codeコマンドでファイルを開いたとき、既に開いているウインドウがあればそこに表示する。
-    "window.openFilesInNewWindow": "off",
-    // タブの名前の長さに応じてタブの幅が変更される
-    "workbench.editor.tabSizing": "shrink",
-    // 文字の間隔を狭める
-    "editor.letterSpacing": -0.3,
-    "editor.lineHeight": 21,
-    // プレビューモードで開かれるのを阻止します
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    // 開始と終了のブラケットをセットで同じカラーにします。
-    "editor.bracketPairColorization.enabled": true,
-    // 開始と終了のブラケットが強調表示されます。
-    "editor.guides.bracketPairs": true,
-    // vscodeを立ち上げた時に表示される画面を変更します。
-    "workbench.startupEditor": "none",
-    // テキストコピー時に書式設定を含める
-    "editor.copyWithSyntaxHighlighting": false,
-    // importが入力補完される
-    "javascript.suggest.autoImports": true,
-    "typescript.suggest.autoImports": true,
-    // ファイルを移動した時にimportのパスが変わっても自動で更新される
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    // コンソールなどの画面を右側に配置します
-    "workbench.panel.defaultLocation": "right",
-    // 引数の名前が表示されます。
-    "javascript.inlayHints.parameterNames.enabled": "all",
-    "typescript.inlayHints.parameterNames.enabled": "all",
-    // vscode の window 上部の名前を変更します
-    "window.title": "${dirty}\\${activeEditorMedium}${separator}${rootName}",
-    // ファイルツリーにインデントのガイド線を表示する
-    "workbench.tree.renderIndentGuides": "always",
-    // ファイルツリーにインデントのサイズを変更する
-    "workbench.tree.indent": 16,
-    // 設定すると、OS の外観に基づいて好みのカラー テーマに自動的に切り替わります。
-    "window.autoDetectColorScheme": true,
-    // #window.autoDetectColorScheme# が有効な場合に、ダークな OS の外観に適した色のテーマを指定します。
-    "workbench.preferredDarkColorTheme": "GitHub Dark Default",
-    // vscode のテーマを変更します。
-    "workbench.colorTheme": "GitHub Dark Default",
-    // ターミナルで選択するとコピー、右クリックで貼り付け出来るようにする
-    "terminal.integrated.copyOnSelection": true,
-    "terminal.integrated.rightClickBehavior": "paste",
-    // git リポジトリを同期する前に確認しないようにする。
-    "git.confirmSync": false,
-    // vscodeのカーソルを変更する
-    "editor.cursorStyle": "block",
-    "workbench.colorCustomizations": {
-        "editorCursor.foreground": "#f858f07f",
-        "terminalCursor.foreground": "#f858f07f"
-    },
-    "editor.cursorBlinking": "expand",
-    // カーソルがにゅるっと移動する
-    "editor.cursorSmoothCaretAnimation": true,
-    // 制御文字を表示する
-    "editor.renderControlCharacters": true,
-    // 選択行の行番号をハイライトする
-    "editor.renderLineHighlight": "all",
-    // ファイルの自動エンコードを実施
-    "files.autoGuessEncoding": true,
-    // デバッグ中に行内に変数値を表示
-    "debug.inlineValues": "on",
-    // デバッグコンソールの表示方法
-    "debug.internalConsoleOptions": "openOnSessionStart",
-    // デバッグビューの表示方法
-    "debug.openDebug": "openOnSessionStart",
-    // ドラッグアンドドロップで選択範囲のテキストを移動できるようにする
-    "editor.dragAndDrop": false,
-    // 貼り付けを行ったときに自動でフォーマット
-    "editor.formatOnPaste": true,
-    // ファイル保存時に自動でフォーマット
-    "editor.formatOnSave": true,
-    // 入力した行を自動でフォーマット
-    "editor.formatOnType": true,
-    // リンクされた編集がエディターで有効にされるかどうかを制御します。e.g. HTML
-    "editor.linkedEditing": true,
-    // 行の折りたたみ記号の表示方法
-    "editor.showFoldingControls": "always",
+    // タブサイズ
+    "editor.tabSize": 2,
+    // 現在のユーザー ロケールで一般的な文字を除き、基本的な ASCII 文字と混同される可能性のある文字を強調表示するかどうかを制御します。
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    // 空白を占めるだけの文字や幅がまったくない文字を強調表示するかどうかを制御します。
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    // 基本 ASCII 以外のすべての文字を強調表示するかどうかを制御します。
+    "editor.unicodeHighlight.nonBasicASCII": false,
     // 単語の区切り文字
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?　、。！？「」【】『』（）",
     // 行の折り返し表示
     "editor.wordWrap": "on",
-    // 名前重複時の名前付け規則
-    "explorer.incrementalNaming": "smart",
-    // ファイル保存時に最終行に改行を挿入
-    "files.insertFinalNewline": true,
-    // ファイル保存時に最終行以降の空行を削除
-    "files.trimFinalNewlines": true,
-    // 検索ビューの検索結果に行数を併記
-    "search.showLineNumbers": true,
-    // アクティブなターミナルセッションがある場合、終了時に確認を行う
-    "terminal.integrated.confirmOnExit": "always",
-    // 信頼されたワークスペースで信頼されていないファイルを開くときの取り扱いを制御します
-    "security.workspace.trust.untrustedFiles": "open",
-    // 使用可能なスペースを超えたときにタブを複数行に折り返す
-    "workbench.editor.wrapTabs": true,
-    // 拡張機能の推奨事項の通知を表示しません
-    "extensions.ignoreRecommendations": true,
-    "git.suggestSmartCommit": false,
-    // Ctrl キーを押しながらマウス ホイールを使用してエディターのフォントをズームします
-    "editor.mouseWheelZoom": true,
-    // 水平方向のブラケット ペアのガイドを有効にする
-    "editor.guides.bracketPairsHorizontal": true,
-    // エディターにインライン候補を自動的に表示する
-    "editor.inlineSuggest.enabled": true,
-    // 現在のユーザー ロケールで一般的な文字を除き、基本的な ASCII 文字と混同される可能性のある文字を強調表示するかどうかを制御します。
-    "editor.unicodeHighlight.ambiguousCharacters": false,
-    // commits will automatically be fetched from the default remote of the current Git repository.
-    "git.autofetch": true,
-    "window.restoreWindows": "none",
-    "[markdown]": {
-        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
-    },
-    // 基本 ASCII 以外のすべての文字を強調表示するかどうかを制御します。
-    "editor.unicodeHighlight.nonBasicASCII": false,
-    // 空白を占めるだけの文字や幅がまったくない文字を強調表示するかどうかを制御します。
-    "editor.unicodeHighlight.invisibleCharacters": false,
-    "prettier.tabWidth": 4,
     "emmet.syntaxProfiles": {
         "html": {
             "filters": "html,c"
         }
     },
-    "[sql]": {
-        "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
-    },
-    "[java]": {
-        "editor.tabSize": 4,
-        "editor.glyphMargin": true,
-        "editor.defaultFormatter": "redhat.java"
-    },
-    "java.jdt.ls.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.5.8-hotspot",
-    "java.format.settings.profile": "GoogleStyle",
-    "java.format.settings.url": "${workspaceFolder}\\.vscode\\eclipse-java-google-style.xml",
-    // VSCodeでJava開発する際のショートカットキー一覧
-    "java.saveActions.organizeImports": true,
+    // 名前重複時の名前付け規則
+    "explorer.incrementalNaming": "smart",
+    // 拡張機能の推奨事項の通知を表示しません
+    "extensions.ignoreRecommendations": true,
+    // ファイルの自動エンコードを実施
+    "files.autoGuessEncoding": true,
+    // ファイル保存時に最終行に改行を挿入
+    "files.insertFinalNewline": true,
+    // ファイル保存時に最終行以降の空行を削除
+    "files.trimFinalNewlines": true,
+    // ファイル保存時に各行の末尾にある半角スペースを削除
+    "files.trimTrailingWhitespace": true,
+    // commits will automatically be fetched from the default remote of the current Git repository.
+    "git.autofetch": true,
+    // git リポジトリを同期する前に確認しないようにする。
+    "git.confirmSync": false,
+    // Suggests to enable smart commit (commit all changes when there are no staged changes).
+    "git.suggestSmartCommit": false,
+    "java.configuration.updateBuildConfiguration": "automatic",
     "java.dependency.packagePresentation": "hierarchical",
     "java.dependency.syncWithFolderExplorer": true,
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.format.settings.profile": "GoogleStyle",
+    "java.format.settings.url": "${workspaceFolder}\\.vscode\\eclipse-java-google-style.xml",
+    "java.jdt.ls.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.5.8-hotspot",
+    // VSCodeでJava開発する際のショートカットキー一覧
+    "java.saveActions.organizeImports": true,
+    // 引数の名前が表示されます。
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    // importが入力補完される
+    "javascript.suggest.autoImports": true,
+    // ファイルを移動した時にimportのパスが変わっても自動で更新される
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    // Controls the font family used in the Markdown preview.
+    "markdown.preview.fontFamily": "Consolas, 'Courier New', monospace",
+    // prettier:シングルクォートをdefaultにする
+    "prettier.singleQuote": true,
+    // Number of spaces it should use per tab
+    "prettier.tabWidth": 4,
+    "rest-client.fontFamily": "Consolas, 'Courier New', monospace",
+    // 入力メッセージのフォントを制御します。
+    "scm.inputFontFamily": "Consolas, 'Courier New', monospace",
+    // 検索ビューの検索結果に行数を併記
+    "search.showLineNumbers": true,
+    // 信頼されたワークスペースで信頼されていないファイルを開くときの取り扱いを制御します
+    "security.workspace.trust.untrustedFiles": "open",
+    "sortJSON.contextMenu": {
+        "sortJSON": true,
+        "sortJSONAlphaNum": false,
+        "sortJSONAlphaNumReverse": false,
+        "sortJSONKeyLength": false,
+        "sortJSONKeyLengthReverse": false,
+        "sortJSONReverse": false,
+        "sortJSONType": false,
+        "sortJSONTypeReverse": false,
+        "sortJSONValues": false,
+        "sortJSONValuesReverse": false
+    },
+    // Settings to underride the sort order (i.e. to be at the end of the order)
+    "sortJSON.orderUnderride": ["[java]", "[markdown]", "[sql]"],
+    // アクティブなターミナルセッションがある場合、終了時に確認を行う
+    "terminal.integrated.confirmOnExit": "always",
+    // ターミナルで選択するとコピー、右クリックで貼り付け出来るようにする
+    "terminal.integrated.copyOnSelection": true,
+    // 右クリックに対するターミナルの反応を制御します。
+    "terminal.integrated.rightClickBehavior": "paste",
+    // Enable/disable inlay hints for parameter names:
+    "typescript.inlayHints.parameterNames.enabled": "all",
+    // Enable/disable automatic updating of import paths when you rename or move a file in VS Code.
+    "typescript.suggest.autoImports": true,
+    // Enable/disable automatic updating of import paths when you rename or move a file in VS Code.
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    // 設定すると、OS の外観に基づいて好みのカラー テーマに自動的に切り替わります。
+    "window.autoDetectColorScheme": true,
+    // "terminal.integrated.fontSize": 20,
+    // "debug.console.fontSize": 20,
+    // codeコマンドでファイルを開いたとき、既に開いているウインドウがあればそこに表示する。
+    "window.openFilesInNewWindow": "off",
+    // 初めての起動後にウィンドウを再度開く方法を制御します。この設定は、アプリケーションが既に実行中の場合は効果がありません。
+    "window.restoreWindows": "none",
+    // vscode の window 上部の名前を変更します
+    "window.title": "${dirty}\\${activeEditorMedium}${separator}${rootName}",
+    // 大きすぎるUIを小さくする。
+    // "window.zoomLevel": -1,
+    // 現在選択している配色テーマで配色を上書きします。
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#f858f07f",
+        "terminalCursor.foreground": "#f858f07f"
+    },
+    // vscode のテーマを変更します。
+    "workbench.colorTheme": "GitHub Dark Default",
+    // プレビューモードで開かれるのを阻止します
+    "workbench.editor.enablePreview": false,
+    // Quick Open から開いたエディターをプレビュー エディターとして表示するかどうかを制御します。
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    // タブの名前の長さに応じてタブの幅が変更される
+    "workbench.editor.tabSizing": "shrink",
+    // 使用可能なスペースを超えたときにタブを複数行に折り返す
+    "workbench.editor.wrapTabs": true,
+    // アイコンテーマ
+    "workbench.iconTheme": "material-icon-theme",
+    // コンソールなどの画面を右側に配置します
+    "workbench.panel.defaultLocation": "right",
+    // #window.autoDetectColorScheme# が有効な場合に、ダークな OS の外観に適した色のテーマを指定します。
+    "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+    // vscodeを立ち上げた時に表示される画面を変更します。
+    "workbench.startupEditor": "none",
+    // ファイルツリーにインデントのサイズを変更する
+    "workbench.tree.indent": 16,
+    // ファイルツリーにインデントのガイド線を表示する
+    "workbench.tree.renderIndentGuides": "always",
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java",
+        "editor.glyphMargin": true,
+        "editor.tabSize": 4
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "[sql]": {
+        "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+    }
 }
-
 // https://zenn.dev/ruru/articles/396265425c9740
 // https://zenn.dev/hulk510/articles/vscode-suggest-more-useful
 // https://www.cview.co.jp/cvcblog/2021.04.20.dYMmFSxAihNBwoEkCys_X
