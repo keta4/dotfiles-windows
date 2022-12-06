@@ -166,16 +166,12 @@
     // Settings to underride the sort order (i.e. to be at the end of the order)
     "sortJSON.orderUnderride": [
         "[java]",
-        "[javascript]",
-        "[javascriptreact]",
         "[json]",
         "[jsonc]",
         "[markdown]",
         "[powershell]",
         "[python]",
-        "[sql]",
-        "[typescript]",
-        "[typescriptreact]"
+        "[sql]"
     ],
     // ターミナルで選択するとコピー、右クリックで貼り付け出来るようにする
     "terminal.integrated.copyOnSelection": true,
@@ -231,12 +227,6 @@
         "editor.glyphMargin": true,
         "editor.tabSize": 4
     },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -256,12 +246,6 @@
     },
     "[sql]": {
         "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 }
 // https://zenn.dev/ruru/articles/396265425c9740
