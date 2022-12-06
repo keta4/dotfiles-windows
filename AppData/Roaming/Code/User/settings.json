@@ -134,8 +134,6 @@
     // Number of spaces it should use per tab
     "prettier.tabWidth": 4,
     "rest-client.fontFamily": "Consolas, 'Courier New', monospace",
-    // 入力メッセージのフォントを制御します。
-    // "scm.inputFontFamily": "Consolas, 'Courier New', monospace",
     // 検索ビューの検索結果に行数を併記
     "search.showLineNumbers": true,
     // 信頼されたワークスペースで信頼されていないファイルを開くときの取り扱いを制御します
