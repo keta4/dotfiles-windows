@@ -3,5 +3,15 @@
     {
         "key": "ctrl+shift+a",
         "command": "editor.emmet.action.balanceOut"
+    },
+    {
+        "key": "ctrl+oem_1",
+        "command": "workbench.action.terminal.focus",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+oem_1",
+        "command": "workbench.action.focusFirstEditorGroup",
+        "when": "terminalFocus"
     }
 ]
