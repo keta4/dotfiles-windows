@@ -98,13 +98,17 @@
     // Enable Emmet abbreviations in languages that are not supported by default.
     "emmet.includeLanguages": {
         "javascript": "javascriptreact, css, html",
-        "vue": "html, css"
+        "vue": "html, css, vue, vue-html"
     },
     // Define profile for specified syntax or use your own profile with specific rules.
     "emmet.syntaxProfiles": {
         "html": {
             "filters": "html,c"
         }
+    },
+    // Variables to be used in Emmet snippets.
+    "emmet.variables": {
+        "lang": "ja"
     },
     // 名前重複時の名前付け規則
     "explorer.incrementalNaming": "smart",
