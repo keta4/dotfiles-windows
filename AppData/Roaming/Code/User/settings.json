@@ -223,8 +223,6 @@
     "workbench.preferredDarkColorTheme": "GitHub Dark Default",
     // vscodeを立ち上げた時に表示される画面を変更します。
     "workbench.startupEditor": "none",
-    // ファイルツリーにインデントのサイズを変更する
-    "workbench.tree.indent": 16,
     // ファイルツリーにインデントのガイド線を表示する
     "workbench.tree.renderIndentGuides": "always",
     "[html]": {
@@ -236,10 +234,12 @@
         "editor.tabSize": 4
     },
     "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 4
     },
     "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 4
     },
     "[markdown]": {
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
