@@ -169,6 +169,7 @@
     },
     // Settings to underride the sort order (i.e. to be at the end of the order)
     "sortJSON.orderUnderride": [
+        "[html]",
         "[java]",
         "[json]",
         "[jsonc]",
@@ -226,6 +227,9 @@
     "workbench.tree.indent": 16,
     // ファイルツリーにインデントのガイド線を表示する
     "workbench.tree.renderIndentGuides": "always",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "[java]": {
         "editor.defaultFormatter": "redhat.java",
         "editor.glyphMargin": true,
