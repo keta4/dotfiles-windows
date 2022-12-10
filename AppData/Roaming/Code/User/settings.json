@@ -128,6 +128,8 @@
     "git.autofetch": true,
     // git リポジトリを同期する前に確認しないようにする。
     "git.confirmSync": false,
+    // ブランチがプル時にリベースされた可能性があると思われる場合、警告を無視します。
+    "git.ignoreRebaseWarning": true,
     // Suggests to enable smart commit (commit all changes when there are no staged changes).
     "git.suggestSmartCommit": false,
     "java.configuration.updateBuildConfiguration": "automatic",
@@ -150,6 +152,8 @@
     "prettier.singleQuote": true,
     // Number of spaces it should use per tab
     "prettier.tabWidth": 4,
+    // Enable usage data and errors to be sent to Red Hat servers. Read our privacy statement.
+    "redhat.telemetry.enabled": false,
     "rest-client.fontFamily": "Consolas, 'Courier New', monospace",
     // 検索ビューの検索結果に行数を併記
     "search.showLineNumbers": true,
