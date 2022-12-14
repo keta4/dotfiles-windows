@@ -148,12 +148,15 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     // Controls the font family used in the Markdown preview.
     "markdown.preview.fontFamily": "Consolas, 'Courier New', monospace",
-    // Specifies whether you should be prompted to update your version of PowerShell.
     "powershell.promptToUpdatePowerShell": false,
     // prettier:シングルクォートをdefaultにする
     "prettier.singleQuote": true,
     // Number of spaces it should use per tab
     "prettier.tabWidth": 4,
+    // Enable/disable inlay hints for function return types:
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    // Enable/disable inlay hints for variable types:
+    "python.analysis.inlayHints.variableTypes": true,
     // Enable usage data and errors to be sent to Red Hat servers. Read our privacy statement.
     "redhat.telemetry.enabled": false,
     "rest-client.fontFamily": "Consolas, 'Courier New', monospace",
