@@ -148,6 +148,8 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     // Controls the font family used in the Markdown preview.
     "markdown.preview.fontFamily": "Consolas, 'Courier New', monospace",
+    // Specifies whether you should be prompted to update your version of PowerShell.
+    "powershell.promptToUpdatePowerShell": false,
     // prettier:シングルクォートをdefaultにする
     "prettier.singleQuote": true,
     // Number of spaces it should use per tab
@@ -242,7 +244,7 @@
         "editor.tabSize": 4
     },
     "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.defaultFormatter": "vscode.json-language-features",
         "editor.tabSize": 4
     },
     "[markdown]": {
@@ -254,7 +256,9 @@
     },
     "[python]": {
         "editor.tabSize": 4,
-        "gitlens.codeLens.symbolScopes": ["!Module"]
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ]
     },
     "[sql]": {
         "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
