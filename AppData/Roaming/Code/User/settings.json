@@ -1,4 +1,24 @@
 {
+    "cSpell.userWords": [
+        "Adoptium",
+        "Anson",
+        "appuser",
+        "autodocstring",
+        "autofetch",
+        "cellpromote",
+        "Consolas",
+        "devcontainer",
+        "esbenp",
+        "hotspot",
+        "inferrinizzard",
+        "nemi",
+        "njpwerner",
+        "pwsh",
+        "pylance",
+        "tclock",
+        "underride",
+        "uvfrbwh"
+    ],
     // デバッグ コンソールのフォント ファミリを制御します。
     "debug.console.fontFamily": "Consolas, 'Courier New', monospace",
     // デバッグ中に行内に変数値を表示
