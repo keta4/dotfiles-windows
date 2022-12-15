@@ -70,7 +70,7 @@
     // エディターにインライン候補を自動的に表示する
     "editor.inlineSuggest.enabled": true,
     // 文字の間隔を狭める
-    "editor.letterSpacing": -0.4,
+    "editor.letterSpacing": -0.3,
     "editor.lineHeight": 21,
     // リンクされた編集がエディターで有効にされるかどうかを制御します。e.g. HTML
     "editor.linkedEditing": true,
