@@ -148,7 +148,7 @@
     // 水平方向のブラケット ペアのガイドを有効にする
     "editor.guides.bracketPairsHorizontal": true,
     // エディターで解説ヒントのフォント ファミリを制御します。
-    "editor.inlayHints.fontFamily": "'Hack NF', Consolas, Cica,'Courier New', monospace",
+    "editor.inlayHints.fontFamily": "'Hack NF', 'BIZ UDゴシック', Consolas, Cica,'Courier New', monospace",
     // エディターにインライン候補を自動的に表示する
     "editor.inlineSuggest.enabled": true,
     // 文字の間隔を狭める
