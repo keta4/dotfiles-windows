@@ -1,27 +1,183 @@
 // 既定値を上書きするには、このファイル内にキー バインドを挿入します
 [
+    // 開始タグから閉じタグまでを選択する
     {
-        "key": "ctrl+shift+a",
-        "command": "editor.emmet.action.balanceOut"
+        "command": "editor.emmet.action.balanceOut",
+        "key": "ctrl+shift+a"
+    },
+    // https://fe-notes.work/posts/20200712_vsvim02/
+    // 隣のタブに移動する
+    // ctrl+hで左へ
+    {
+        "command": "workbench.action.previousEditor",
+        "key": "ctrl+h"
+    },
+    // ctrl+lで右へ
+    {
+        "command": "workbench.action.nextEditor",
+        "key": "ctrl+l"
+    },
+    // サジェスト
+    // ctrl+jで下へ
+    {
+        "command": "selectNextSuggestion",
+        "key": "ctrl+j",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    // ctrl+kで上へ
+    {
+        "command": "selectPrevSuggestion",
+        "key": "ctrl+k",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    // コマンドパレット
+    // ctrl+jで下へ
+    {
+        "command": "workbench.action.quickOpenSelectNext",
+        "key": "ctrl+j",
+        "when": "inQuickOpen"
+    },
+    // ctrl+kで上へ
+    {
+        "command": "workbench.action.quickOpenSelectPrevious",
+        "key": "ctrl+k",
+        "when": "inQuickOpen "
+    },
+    // サジェストを閉じる
+    {
+        "command": "hideSuggestWidget",
+        "key": "ctrl+space",
+        "when": "suggestWidgetVisible && textInputFocus"
     },
     {
-        "key": "ctrl+oem_1",
         "command": "workbench.action.terminal.focus",
+        "key": "ctrl+oem_1",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+oem_1",
         "command": "workbench.action.focusFirstEditorGroup",
+        "key": "ctrl+oem_1",
         "when": "terminalFocus"
     },
+    // エクスプローラー上で新規ファイル
     {
-        "key": "ctrl+n",
         "command": "explorer.newFile",
+        "key": "ctrl+n",
         "when": "filesExplorerFocus"
     },
+    // エクスプローラー上で新規フォルダ
     {
-        "key": "ctrl+shift+n",
         "command": "explorer.newFolder",
+        "key": "ctrl+shift+n",
         "when": "filesExplorerFocus"
+    },
+    // サイドバーのファイラーへ移動
+    {
+        "command": "workbench.view.explorer",
+        "key": "ctrl+0"
+    },
+    // エクスプローラー
+    {
+        "command": "list.focusDown",
+        "key": "j",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "command": "list.focusUp",
+        "key": "k",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "command": "list.collapse",
+        "key": "h",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "command": "list.select",
+        "key": "l",
+        "when": "listFocus && !inputFocus"
+    },
+    // エディタに移動
+    {
+        "command": "workbench.action.focusFirstEditorGroup",
+        "key": "ctrl+w l",
+        "when": "listFocus && !inputFocus"
+    },
+    // ターミナルに移動
+    {
+        "command": "workbench.action.focusFirstEditorGroup",
+        "key": "ctrl+w k",
+        "when": "terminalFocus"
+    },
+    // dでファイルを削除
+    {
+        "command": "deleteFile",
+        "key": "d",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
+    },
+    // rでファイルのリネーム
+    {
+        "command": "renameFile",
+        "key": "r",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    // vで分割して開く
+    {
+        "command": "explorer.openToSide",
+        "key": "v",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    // ファイルのコピー
+    {
+        "command": "filesExplorer.copy",
+        "key": "y",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    // ファイルのペースト
+    {
+        "command": "filesExplorer.paste",
+        "key": "p",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    // shift+y で相対パスをコピー
+    {
+        "command": "copyRelativeFilePath",
+        "key": "shift+y",
+        "when": "!editorFocus"
+    },
+    // parameterHints を開く
+    {
+        "command": "editor.action.triggerParameterHints",
+        "key": "ctrl+space",
+        "when": "editorHasSignatureHelpProvider && editorTextFocus"
+    },
+    // parameterHints を閉じる
+    {
+        "command": "closeParameterHints",
+        "key": "ctrl+space",
+        "when": "editorFocus && parameterHintsVisible"
+    },
+    // https://noanoa07.blog.jp/archives/2196964.html
+    // Tab でカッコの外にカーソルを移動する
+    // {
+    //     "command": "cursorRight",
+    //     "key": "tab",
+    //     "when": "!suggestWidgetMultipleSuggestions && !suggestWidgetVisible && textInputFocus"
+    // },
+    {
+        "command": "cursorWordEndRight",
+        "key": "tab",
+        "when": "!suggestWidgetMultipleSuggestions && !suggestWidgetVisible && textInputFocus"
+    },
+    // Shift+Tab でTabを挿入する
+    {
+        "command": "tab",
+        "key": "shift+tab",
+        "when": "!suggestWidgetMultipleSuggestions && !suggestWidgetVisible && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+    },
+    {
+        "command": "-tab",
+        "key": "tab",
+        "when": "!suggestWidgetMultipleSuggestions && !suggestWidgetVisible && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
     }
 ]

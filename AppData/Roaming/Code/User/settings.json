@@ -345,6 +345,8 @@
     "workbench.panel.defaultLocation": "right",
     // #window.autoDetectColorScheme# が有効な場合に、ダークな OS の外観に適した色のテーマを指定します。
     "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+    // 既定で使用する設定エディターを指定します。
+    "workbench.settings.editor": "json",
     // vscodeを立ち上げた時に表示される画面を変更します。
     "workbench.startupEditor": "none",
     // ファイルツリーにインデントのガイド線を表示する
