@@ -164,11 +164,11 @@
     //     "key": "tab",
     //     "when": "!suggestWidgetMultipleSuggestions && !suggestWidgetVisible && textInputFocus"
     // },
-    {
-        "command": "cursorWordEndRight",
-        "key": "tab",
-        "when": "!suggestWidgetMultipleSuggestions && !suggestWidgetVisible && textInputFocus"
-    },
+    // {
+    //     "command": "cursorWordEndRight",
+    //     "key": "tab",
+    //     "when": "!suggestWidgetMultipleSuggestions && !suggestWidgetVisible && textInputFocus"
+    // },
     // Shift+Tab でTabを挿入する
     {
         "command": "tab",

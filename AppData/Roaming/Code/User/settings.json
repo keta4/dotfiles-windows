@@ -6,6 +6,7 @@
         "Anson",
         "appuser",
         "autoclean",
+        "autoconfigure",
         "autodocstring",
         "autofetch",
         "autoremove",
@@ -90,6 +91,7 @@
         "signinoptions",
         "skyapps",
         "sophi",
+        "springframework",
         "systempropertiesadvanced",
         "tclock",
         "thymeleaf",
@@ -144,9 +146,9 @@
     // 選択範囲を指定しないでコピーする場合に現在の行をコピーするかどうかを制御します。
     "editor.emptySelectionClipboard": false,
     // フォント ファミリを制御します。
-    "editor.fontFamily": "'Hack NF', 'BIZ UDゴシック', Consolas, Cica,'Courier New', monospace",
+    "editor.fontFamily": "'Hack NF', 'BIZ UDゴシック', 'モトヤLマルベリ3等幅', Consolas, Cica, 'Courier New', monospace",
     // font-sizeをあげてる。
-    "editor.fontSize": 14,
+    "editor.fontSize": 15,
     // 貼り付けを行ったときに自動でフォーマット
     "editor.formatOnPaste": true,
     // ファイル保存時に自動でフォーマット
@@ -160,11 +162,11 @@
     // 水平方向のブラケット ペアのガイドを有効にする
     "editor.guides.bracketPairsHorizontal": true,
     // エディターで解説ヒントのフォント ファミリを制御します。
-    "editor.inlayHints.fontFamily": "'Hack NF', 'BIZ UDゴシック', Consolas, Cica,'Courier New', monospace",
+    "editor.inlayHints.fontFamily": "'Hack NF', 'BIZ UDゴシック', 'モトヤLマルベリ3等幅', Consolas, Cica, 'Courier New', monospace",
     // エディターにインライン候補を自動的に表示する
     "editor.inlineSuggest.enabled": true,
     // 文字の間隔を狭める
-    "editor.letterSpacing": -0.3,
+    "editor.letterSpacing": -0.4,
     "editor.lineHeight": 21,
     // リンクされた編集がエディターで有効にされるかどうかを制御します。e.g. HTML
     "editor.linkedEditing": true,
@@ -188,6 +190,8 @@
     "editor.roundedSelection": false,
     // 行の折りたたみ記号の表示方法
     "editor.showFoldingControls": "always",
+    // snippetのサジェストを最初に出す。
+    "editor.snippetSuggestions": "top",
     // これをfalseにするとkeywordだけ消してくれる
     // "editor.suggest.showKeywords": false,
     // textもいらないので消す
@@ -382,7 +386,8 @@
     },
     "[sql]": {
         "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
-    }
+    },
+    "boot-java.rewrite.reconcile": true
 }
 // https://zenn.dev/ruru/articles/396265425c9740
 // https://zenn.dev/hulk510/articles/vscode-suggest-more-useful
