@@ -71,6 +71,8 @@
         "NORESTART",
         "notlike",
         "oderwat",
+        "pagedown",
+        "pageup",
         "procps",
         "psordum",
         "pval",

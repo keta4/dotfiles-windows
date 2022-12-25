@@ -5,19 +5,26 @@
         "command": "editor.emmet.action.balanceOut",
         "key": "ctrl+shift+a"
     },
-    // https://fe-notes.work/posts/20200712_vsvim02/
     // 隣のタブに移動する
-    // ctrl+hで左へ
+    // https://kantaro-cgi.com/blog/tool/vscode_tabmovekey_like_chrome.html
     {
         "command": "workbench.action.previousEditor",
-        "key": "ctrl+h"
+        "key": "ctrl + shift + tab"
     },
-    // ctrl+lで右へ
+    {
+        "command": "-workbench.action.previousEditor",
+        "key": "ctrl + pageup"
+    },
     {
         "command": "workbench.action.nextEditor",
-        "key": "ctrl+l"
+        "key": "ctrl + tab"
+    },
+    {
+        "command": "-workbench.action.nextEditor",
+        "key": "ctrl + pagedown"
     },
     // サジェスト
+    // https://fe-notes.work/posts/20200712_vsvim02/
     // ctrl+jで下へ
     {
         "command": "selectNextSuggestion",
