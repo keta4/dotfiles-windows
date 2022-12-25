@@ -1,30 +1,4 @@
 {
-    "buckets": [
-        {
-            "Name": "Ash258",
-            "Source": "https://github.com/Ash258/Scoop-Ash258.git",
-            "Updated": "2022-11-30T16:02:57+09:00",
-            "Manifests": 346
-        },
-        {
-            "Name": "extras",
-            "Source": "https://github.com/ScoopInstaller/Extras",
-            "Updated": "2022-11-30T17:56:28+09:00",
-            "Manifests": 1740
-        },
-        {
-            "Name": "main",
-            "Source": "https://github.com/ScoopInstaller/Main",
-            "Updated": "2022-11-30T17:29:09+09:00",
-            "Manifests": 1123
-        },
-        {
-            "Name": "versions",
-            "Source": "https://github.com/ScoopInstaller/Versions",
-            "Updated": "2022-11-30T17:38:45+09:00",
-            "Manifests": 397
-        }
-    ],
     "apps": [
         {
             "Updated": "2022-07-23T16:36:40.0987651+09:00",
@@ -62,24 +36,24 @@
             "Info": ""
         },
         {
-            "Updated": "2022-11-04T23:59:50.8561931+09:00",
+            "Updated": "2022-12-23T03:14:54.8059266+09:00",
             "Name": "broot",
             "Source": "main",
-            "Version": "1.16.2",
+            "Version": "1.18.0",
             "Info": ""
         },
         {
-            "Updated": "2022-11-25T18:45:18.8402392+09:00",
+            "Updated": "2022-12-19T15:42:28.8449849+09:00",
             "Name": "chezmoi",
             "Source": "main",
-            "Version": "2.27.2",
+            "Version": "2.28.0",
             "Info": ""
         },
         {
-            "Updated": "2022-11-26T17:36:58.4962287+09:00",
+            "Updated": "2022-12-15T14:48:29.3968265+09:00",
             "Name": "chromium",
             "Source": "extras",
-            "Version": "107.0.5304.122-r1202",
+            "Version": "108.0.5359.125-r1058933",
             "Info": ""
         },
         {
@@ -97,10 +71,10 @@
             "Info": ""
         },
         {
-            "Updated": "2022-09-01T21:50:09.5712107+09:00",
+            "Updated": "2022-12-05T18:16:23.9541382+09:00",
             "Name": "delta",
             "Source": "main",
-            "Version": "0.14.0",
+            "Version": "0.15.1",
             "Info": ""
         },
         {
@@ -111,10 +85,10 @@
             "Info": ""
         },
         {
-            "Updated": "2022-11-14T21:36:46.8872531+09:00",
+            "Updated": "2022-12-11T05:43:56.8451604+09:00",
             "Name": "fd",
             "Source": "main",
-            "Version": "8.5.3",
+            "Version": "8.6.0",
             "Info": ""
         },
         {
@@ -146,10 +120,10 @@
             "Info": ""
         },
         {
-            "Updated": "2022-11-17T20:17:31.7206835+09:00",
+            "Updated": "2022-12-24T20:36:53.9927741+09:00",
             "Name": "gh",
             "Source": "main",
-            "Version": "2.20.2",
+            "Version": "2.21.1",
             "Info": ""
         },
         {
@@ -160,10 +134,10 @@
             "Info": ""
         },
         {
-            "Updated": "2022-10-20T17:00:30.4949503+09:00",
+            "Updated": "2022-12-23T03:15:06.9623748+09:00",
             "Name": "git",
             "Source": "main",
-            "Version": "2.38.1.windows.1",
+            "Version": "2.39.0.windows.2",
             "Info": ""
         },
         {
@@ -171,6 +145,13 @@
             "Name": "gitui",
             "Source": "main",
             "Version": "0.22.1",
+            "Info": ""
+        },
+        {
+            "Updated": "2022-12-19T18:11:29.602138+09:00",
+            "Name": "gradle",
+            "Source": "main",
+            "Version": "7.6",
             "Info": ""
         },
         {
@@ -192,6 +173,20 @@
             "Name": "innounp",
             "Source": "main",
             "Version": "0.50",
+            "Info": ""
+        },
+        {
+            "Updated": "2022-12-16T01:13:50.7133056+09:00",
+            "Name": "jq",
+            "Source": "main",
+            "Version": "1.6",
+            "Info": ""
+        },
+        {
+            "Updated": "2022-12-19T18:13:11.1044065+09:00",
+            "Name": "kotlin",
+            "Source": "main",
+            "Version": "1.7.20",
             "Info": ""
         },
         {
@@ -244,10 +239,10 @@
             "Info": ""
         },
         {
-            "Updated": "2022-10-15T18:57:05.184728+09:00",
+            "Updated": "2022-12-14T14:47:41.4983819+09:00",
             "Name": "starship",
             "Source": "main",
-            "Version": "1.11.0",
+            "Version": "1.12.0",
             "Info": ""
         },
         {
@@ -265,10 +260,10 @@
             "Info": ""
         },
         {
-            "Updated": "2022-11-25T18:45:20.4808932+09:00",
+            "Updated": "2022-12-07T17:17:24.2381103+09:00",
             "Name": "topgrade",
             "Source": "main",
-            "Version": "10.2.0",
+            "Version": "10.2.2",
             "Info": ""
         },
         {
@@ -291,6 +286,32 @@
             "Source": "main",
             "Version": "0.8.3",
             "Info": ""
+        }
+    ],
+    "buckets": [
+        {
+            "Name": "Ash258",
+            "Source": "https://github.com/Ash258/Scoop-Ash258.git",
+            "Updated": "2022-12-25T10:28:57+09:00",
+            "Manifests": 346
+        },
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": "2022-12-25T16:00:40+09:00",
+            "Manifests": 1753
+        },
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main",
+            "Updated": "2022-12-25T05:24:36+09:00",
+            "Manifests": 1136
+        },
+        {
+            "Name": "versions",
+            "Source": "https://github.com/ScoopInstaller/Versions",
+            "Updated": "2022-12-25T13:34:45+09:00",
+            "Manifests": 405
         }
     ]
 }

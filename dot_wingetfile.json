@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2022-11-30T18:16:36.855-00:00",
+	"CreationDate" : "2022-12-25T20:47:18.462-00:00",
 	"Sources" : 
 	[
 		{
@@ -94,7 +94,10 @@
 					"PackageIdentifier" : "ALCPU.CoreTemp"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
+					"PackageIdentifier" : "BlenderFoundation.Blender"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1"
 				},
 				{
 					"PackageIdentifier" : "Alacritty.Alacritty"
@@ -103,16 +106,25 @@
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.5"
 				},
 				{
-					"PackageIdentifier" : "voidtools.Everything"
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1"
+					"PackageIdentifier" : "Microsoft.PowerToys"
+				},
+				{
+					"PackageIdentifier" : "voidtools.Everything"
 				},
 				{
 					"PackageIdentifier" : "Python.Python.3.10"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome"
+					"PackageIdentifier" : "Microsoft.DotNet.SDK.7"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7"
+				},
+				{
+					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
 					"PackageIdentifier" : "DuongDieuPhap.ImageGlass"
@@ -133,10 +145,16 @@
 					"PackageIdentifier" : "Google.Drive"
 				},
 				{
+					"PackageIdentifier" : "Google.Chrome"
+				},
+				{
 					"PackageIdentifier" : "MacType.MacType"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
 					"PackageIdentifier" : "Zoom.Zoom"
@@ -146,9 +164,6 @@
 				},
 				{
 					"PackageIdentifier" : "hluk.CopyQ"
-				},
-				{
-					"PackageIdentifier" : "BlenderFoundation.Blender"
 				},
 				{
 					"PackageIdentifier" : "gerardog.gsudo"
@@ -161,15 +176,6 @@
 				},
 				{
 					"PackageIdentifier" : "EclipseAdoptium.Temurin.17.JDK"
-				},
-				{
-					"PackageIdentifier" : "calibre.calibre"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
