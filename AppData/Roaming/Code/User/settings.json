@@ -14,6 +14,7 @@
         "autoremove",
         "autostash",
         "azuretools",
+        "Baccano",
         "Backreferences",
         "bbwe",
         "Bitwarden",
@@ -164,7 +165,8 @@
         "XBMC",
         "xlabel",
         "ylabel",
-        "zoxide"
+        "zoxide",
+        "zstd"
     ],
     // デバッグ コンソールのフォント ファミリを制御します。
     "debug.console.fontFamily": "Consolas, 'Courier New', monospace",
