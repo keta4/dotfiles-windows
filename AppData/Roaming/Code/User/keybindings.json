@@ -9,19 +9,19 @@
     // https://kantaro-cgi.com/blog/tool/vscode_tabmovekey_like_chrome.html
     {
         "command": "workbench.action.previousEditor",
-        "key": "ctrl + shift + tab"
+        "key": "ctrl+shift+tab"
     },
     {
         "command": "-workbench.action.previousEditor",
-        "key": "ctrl + pageup"
+        "key": "ctrl+pageup"
     },
     {
         "command": "workbench.action.nextEditor",
-        "key": "ctrl + tab"
+        "key": "ctrl+tab"
     },
     {
         "command": "-workbench.action.nextEditor",
-        "key": "ctrl + pagedown"
+        "key": "ctrl+pagedown"
     },
     // サジェスト
     // https://fe-notes.work/posts/20200712_vsvim02/
