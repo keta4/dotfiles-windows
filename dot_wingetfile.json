@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2022-12-26T04:01:28.298-00:00",
+	"CreationDate" : "2022-12-26T17:47:55.775-00:00",
 	"Sources" : 
 	[
 		{
@@ -182,9 +182,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.GitCredentialManagerCore"
 				}
 			],
 			"SourceDetails" : 
