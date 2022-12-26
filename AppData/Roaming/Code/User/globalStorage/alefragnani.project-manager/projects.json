@@ -1,0 +1,58 @@
+[
+	{
+		"name": "setup-android",
+		"rootPath": "d:\\ghq\\setup-android",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "dotfiles-windows",
+		"rootPath": "c:\\Users\\keta\\.local\\share\\chezmoi",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "resume-template",
+		"rootPath": "vscode-remote://wsl+Ubuntu/home/keta/ghq/github.com/keta4/resume-template",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "setup-windows",
+		"rootPath": "d:\\ghq\\setup-windows",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "tclock",
+		"rootPath": "vscode-remote://wsl+ubuntu/home/keta/ghq/github.com/keta4/tclock",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "kotlin-tutorial",
+		"rootPath": "d:\\ghq\\kotlin-tutorial",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "training",
+		"rootPath": "d:\\ghq\\github.com\\keta4\\training",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "lp-vue",
+		"rootPath": "d:\\ghq\\github.com\\keta4\\lp-vue",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	}
+]
