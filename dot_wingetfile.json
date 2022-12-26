@@ -1,25 +1,16 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2022-12-26T17:47:55.775-00:00",
+	"CreationDate" : "2022-12-27T00:18:39.316-00:00",
 	"Sources" : 
 	[
 		{
 			"Packages" : 
 			[
 				{
-					"PackageIdentifier" : "EDRLab.Thorium"
-				},
-				{
 					"PackageIdentifier" : "Bitwarden.Bitwarden"
 				},
 				{
 					"PackageIdentifier" : "File-New-Project.EarTrumpet"
-				},
-				{
-					"PackageIdentifier" : "xanderfrangos.twinkletray"
-				},
-				{
-					"PackageIdentifier" : "Amazon.Kindle"
 				},
 				{
 					"PackageIdentifier" : "BleachBit.BleachBit"
@@ -28,16 +19,13 @@
 					"PackageIdentifier" : "Brave.Brave"
 				},
 				{
-					"PackageIdentifier" : "CPUID.CPU-Z"
-				},
-				{
-					"PackageIdentifier" : "Canonical.Ubuntu"
-				},
-				{
 					"PackageIdentifier" : "CrystalDewWorld.CrystalDiskInfo"
 				},
 				{
 					"PackageIdentifier" : "CrystalDewWorld.CrystalDiskMark"
+				},
+				{
+					"PackageIdentifier" : "voidtools.Everything"
 				},
 				{
 					"PackageIdentifier" : "FastCopy.FastCopy"
@@ -61,6 +49,9 @@
 					"PackageIdentifier" : "XBMCFoundation.Kodi"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.Edge"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
 				},
 				{
@@ -82,16 +73,13 @@
 					"PackageIdentifier" : "SumatraPDF.SumatraPDF"
 				},
 				{
-					"PackageIdentifier" : "Levitsky.FontBase"
+					"PackageIdentifier" : "Zoom.Zoom"
 				},
 				{
 					"PackageIdentifier" : "PeterPawlowski.foobar2000"
 				},
 				{
 					"PackageIdentifier" : "KDE.Kdenlive"
-				},
-				{
-					"PackageIdentifier" : "ALCPU.CoreTemp"
 				},
 				{
 					"PackageIdentifier" : "BlenderFoundation.Blender"
@@ -112,19 +100,10 @@
 					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
-					"PackageIdentifier" : "voidtools.Everything"
-				},
-				{
-					"PackageIdentifier" : "Python.Python.3.10"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.DotNet.SDK.7"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7"
-				},
-				{
-					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
 					"PackageIdentifier" : "DuongDieuPhap.ImageGlass"
@@ -148,16 +127,10 @@
 					"PackageIdentifier" : "Google.Chrome"
 				},
 				{
-					"PackageIdentifier" : "MacType.MacType"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerShell"
-				},
-				{
-					"PackageIdentifier" : "Zoom.Zoom"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86"
