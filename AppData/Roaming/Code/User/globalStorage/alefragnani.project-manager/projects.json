@@ -35,15 +35,15 @@
 		"enabled": true
 	},
 	{
-		"name": "kotlin-tutorial",
-		"rootPath": "d:\\ghq\\kotlin-tutorial",
+		"name": "training",
+		"rootPath": "d:\\ghq\\github.com\\keta4\\training",
 		"paths": [],
 		"tags": [],
 		"enabled": true
 	},
 	{
-		"name": "training",
-		"rootPath": "d:\\ghq\\github.com\\keta4\\training",
+		"name": "spring-boot-kotlin-sample",
+		"rootPath": "d:\\ghq\\github.com\\keta4\\spring-boot-kotlin-sample",
 		"paths": [],
 		"tags": [],
 		"enabled": true
