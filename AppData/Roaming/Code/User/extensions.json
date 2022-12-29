@@ -2,6 +2,7 @@
     "recommendations": [
         "aaron-bond.better-comments",
         "alefragnani.project-manager",
+        "charliermarsh.ruff",
         "christian-kohler.path-intellisense",
         "DavidAnson.vscode-markdownlint",
         "dbaeumer.vscode-eslint",
@@ -44,6 +45,7 @@
         "redhat.vscode-yaml",
         "richie5um2.vscode-sort-json",
         "ritwickdey.LiveServer",
+        "rome.rome",
         "ryu1kn.partial-diff",
         "sdras.night-owl",
         "shardulm94.trailing-spaces",
