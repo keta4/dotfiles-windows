@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2022-12-28T15:48:14.351-00:00",
+	"CreationDate" : "2022-12-31T18:57:59.953-00:00",
 	"Sources" : 
 	[
 		{
@@ -112,9 +112,6 @@
 					"PackageIdentifier" : "Giorgiotani.Peazip"
 				},
 				{
-					"PackageIdentifier" : "Cloudflare.Warp"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2008.x64"
 				},
 				{
@@ -149,6 +146,9 @@
 				},
 				{
 					"PackageIdentifier" : "Inkscape.Inkscape"
+				},
+				{
+					"PackageIdentifier" : "Cloudflare.Warp"
 				},
 				{
 					"PackageIdentifier" : "EclipseAdoptium.Temurin.17.JDK"
