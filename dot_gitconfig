@@ -24,8 +24,5 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[safe]
-	directory = D:/ghq/setup-windows
-	directory = D:/ghq/kotlin-tutorial
 [rebase]
 	autostash = true
