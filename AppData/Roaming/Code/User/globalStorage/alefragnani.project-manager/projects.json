@@ -1,7 +1,7 @@
 [
 	{
 		"name": "setup-android",
-		"rootPath": "d:\\ghq\\setup-android",
+		"rootPath": "d:\\ghq\\github.com\\keta4\\setup-android",
 		"paths": [],
 		"tags": [],
 		"enabled": true
@@ -22,7 +22,7 @@
 	},
 	{
 		"name": "setup-windows",
-		"rootPath": "d:\\ghq\\setup-windows",
+		"rootPath": "d:\\ghq\\github.com\\keta4\\setup-windows",
 		"paths": [],
 		"tags": [],
 		"enabled": true
