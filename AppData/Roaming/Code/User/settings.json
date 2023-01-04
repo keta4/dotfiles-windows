@@ -1,4 +1,5 @@
 {
+    "boot-java.rewrite.reconcile": true,
     "cSpell.userWords": [
         "Adoptium",
         "AHCI",
@@ -326,6 +327,14 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     // Controls the font family used in the Markdown preview.
     "markdown.preview.fontFamily": "Consolas, 'Courier New', monospace",
+    "markdownlint.config": {
+        "MD033": {
+            "allowed_elements": [
+                "details",
+                "summary"
+            ]
+        }
+    },
     "powershell.promptToUpdatePowerShell": false,
     // prettier:シングルクォートをdefaultにする
     "prettier.singleQuote": true,
@@ -445,8 +454,7 @@
     },
     "[sql]": {
         "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
-    },
-    "boot-java.rewrite.reconcile": true
+    }
 }
 // https://zenn.dev/ruru/articles/396265425c9740
 // https://zenn.dev/hulk510/articles/vscode-suggest-more-useful
