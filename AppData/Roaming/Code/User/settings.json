@@ -28,6 +28,7 @@
         "chezmoi",
         "chsh",
         "Cica",
+        "codezombiech",
         "conda",
         "Consolas",
         "containerd",
@@ -83,6 +84,7 @@
         "JIDEA",
         "jorgebucaran",
         "jovyan",
+        "jpholiday",
         "juhahinkula",
         "jupyterlab",
         "Kdenlive",
@@ -118,6 +120,7 @@
         "Pico",
         "procps",
         "procs",
+        "profitrobots",
         "psordum",
         "pval",
         "pwsh",
@@ -140,6 +143,7 @@
         "shardulm",
         "shellenv",
         "Shotcut",
+        "sibvic",
         "signinoptions",
         "skyapps",
         "sophi",
@@ -450,13 +454,17 @@
         "files.trimTrailingWhitespace": false
     },
     "[powershell]": {
+        "editor.tabSize": 4,
         "files.eol": "\r\n"
     },
     "[python]": {
         "editor.tabSize": 4,
         "gitlens.codeLens.symbolScopes": [
             "!Module"
-        ]
+        ],
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true
+        }
     },
     "[sql]": {
         "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
