@@ -54,5 +54,12 @@
 		"paths": [],
 		"tags": [],
 		"enabled": true
+	},
+	{
+		"name": "djangoCrudApp",
+		"rootPath": "vscode-remote://wsl+Ubuntu/home/keta/ghq/github.com/keta4/djangoCrudApp",
+		"paths": [],
+		"tags": [],
+		"enabled": true
 	}
 ]
