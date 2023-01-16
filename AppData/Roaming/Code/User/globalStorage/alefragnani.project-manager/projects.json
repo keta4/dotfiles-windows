@@ -43,7 +43,7 @@
 	},
 	{
 		"name": "spring-boot-kotlin-sample",
-		"rootPath": "d:\\ghq\\github.com\\keta4\\spring-boot-kotlin-sample",
+		"rootPath": "vscode-remote://wsl+ubuntu/home/keta/ghq/github.com/keta4/spring-boot-kotlin-sample",
 		"paths": [],
 		"tags": [],
 		"enabled": true
