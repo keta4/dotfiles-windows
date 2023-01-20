@@ -31,6 +31,7 @@
         "chsh",
         "Cica",
         "clippy",
+        "Codegeex",
         "codezombiech",
         "conda",
         "Consolas",
@@ -59,6 +60,7 @@
         "esbenp",
         "Expt",
         "fastcomplete",
+        "fizzbuzz",
         "flac",
         "fndgsc",
         "formulahendry",
@@ -159,6 +161,7 @@
         "sophiapp",
         "springframework",
         "systempropertiesadvanced",
+        "tabnine",
         "tamasfe",
         "tclock",
         "Temurin",
@@ -475,7 +478,8 @@
     },
     "[sql]": {
         "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
-    }
+    },
+    "Codegeex.Privacy": false,
 }
 // https://zenn.dev/ruru/articles/396265425c9740
 // https://zenn.dev/hulk510/articles/vscode-suggest-more-useful
