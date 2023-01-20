@@ -186,5 +186,15 @@
         "command": "-tab",
         "key": "tab",
         "when": "!suggestWidgetMultipleSuggestions && !suggestWidgetVisible && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "codegeex.interactive-mode",
+        "when": "editorFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-codegeex.interactive-mode",
+        "when": "editorFocus && !editorReadonly"
     }
 ]
