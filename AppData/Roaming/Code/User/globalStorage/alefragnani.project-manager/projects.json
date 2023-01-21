@@ -61,5 +61,12 @@
 		"paths": [],
 		"tags": [],
 		"enabled": true
+	},
+	{
+		"name": "dotfiles-ubuntu",
+		"rootPath": "vscode-remote://wsl+Ubuntu/home/keta/.local/share/chezmoi",
+		"paths": [],
+		"tags": [],
+		"enabled": true
 	}
 ]
