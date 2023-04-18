@@ -142,6 +142,7 @@
         "rhkp",
         "ripgrep",
         "ritwickdey",
+        "rsyslog",
         "runc",
         "runserver",
         "rustfmt",
@@ -220,7 +221,7 @@
     // カーソルのアニメーション方式を制御します。
     "editor.cursorBlinking": "expand",
     // カーソルがにゅるっと移動する
-    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSmoothCaretAnimation": "on",
     // vscodeのカーソルを変更する
     "editor.cursorStyle": "block",
     // ドラッグアンドドロップで選択範囲のテキストを移動できるようにする
@@ -474,12 +475,15 @@
         ],
         "editor.codeActionsOnSave": {
             "source.fixAll": true
-        }
+        },
+        "editor.formatOnType": true
     },
     "[sql]": {
         "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
     },
     "Codegeex.Privacy": false,
+    "lldb.suppressUpdateNotifications": true,
+    "aws.telemetry": false,
 }
 // https://zenn.dev/ruru/articles/396265425c9740
 // https://zenn.dev/hulk510/articles/vscode-suggest-more-useful
