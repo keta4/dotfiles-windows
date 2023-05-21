@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-04-14T12:54:23.338-00:00",
+	"CreationDate" : "2023-05-21T19:07:30.926-00:00",
 	"Sources" : 
 	[
 		{
@@ -17,6 +17,9 @@
 				},
 				{
 					"PackageIdentifier" : "Brave.Brave"
+				},
+				{
+					"PackageIdentifier" : "Canonical.Ubuntu.2204"
 				},
 				{
 					"PackageIdentifier" : "CrystalDewWorld.CrystalDiskInfo"
@@ -44,9 +47,6 @@
 				},
 				{
 					"PackageIdentifier" : "JetBrains.IntelliJIDEA.Community"
-				},
-				{
-					"PackageIdentifier" : "XBMCFoundation.Kodi"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge"
@@ -85,6 +85,9 @@
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.5"
 				},
 				{
@@ -92,9 +95,6 @@
 				},
 				{
 					"PackageIdentifier" : "Python.Python.3.12"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
 					"PackageIdentifier" : "DuongDieuPhap.ImageGlass"
@@ -112,22 +112,13 @@
 					"PackageIdentifier" : "Google.Drive"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome"
+					"PackageIdentifier" : "Cloudflare.Warp"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode"
 				},
 				{
-					"PackageIdentifier" : "Cloudflare.Warp"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.SDK.7"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86"
@@ -139,16 +130,19 @@
 					"PackageIdentifier" : "Inkscape.Inkscape"
 				},
 				{
-					"PackageIdentifier" : "BlenderFoundation.Blender"
+					"PackageIdentifier" : "GitHub.cli"
 				},
 				{
-					"PackageIdentifier" : "GitHub.cli"
+					"PackageIdentifier" : "BlenderFoundation.Blender"
 				},
 				{
 					"PackageIdentifier" : "QL-Win.QuickLook"
 				},
 				{
 					"PackageIdentifier" : "Alacritty.Alacritty"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome"
 				},
 				{
 					"PackageIdentifier" : "gerardog.gsudo"
@@ -158,6 +152,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
 				}
 			],
 			"SourceDetails" : 
