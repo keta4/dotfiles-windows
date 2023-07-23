@@ -1,7 +1,7 @@
 [
 	{
 		"name": "setup-android",
-		"rootPath": "d:\\ghq\\github.com\\keta4\\setup-android",
+		"rootPath": "c:\\Users\\keta\\ghq\\github.com\\keta4\\setup-android",
 		"paths": [],
 		"tags": [],
 		"enabled": true
@@ -22,7 +22,7 @@
 	},
 	{
 		"name": "setup-windows",
-		"rootPath": "d:\\ghq\\github.com\\keta4\\setup-windows",
+		"rootPath": "c:\\Users\\keta\\ghq\\github.com\\keta4\\setup-windows",
 		"paths": [],
 		"tags": [],
 		"enabled": true
@@ -36,7 +36,7 @@
 	},
 	{
 		"name": "spring-boot-java-sample",
-		"rootPath": "d:\\ghq\\github.com\\keta4\\spring-boot-java-sample",
+		"rootPath": "c:\\Users\\keta\\ghq\\github.com\\keta4\\spring-boot-java-sample",
 		"paths": [],
 		"tags": [],
 		"enabled": true
@@ -50,7 +50,7 @@
 	},
 	{
 		"name": "lp-vue",
-		"rootPath": "d:\\ghq\\github.com\\keta4\\lp-vue",
+		"rootPath": "c:\\Users\\keta\\ghq\\github.com\\keta4\\lp-vue",
 		"paths": [],
 		"tags": [],
 		"enabled": true
