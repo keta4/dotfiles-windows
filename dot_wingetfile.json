@@ -1,176 +1,167 @@
 {
-	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-23T15:15:03.397-00:00",
-	"Sources" : 
-	[
+	"$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate": "2023-07-23T15:15:03.397-00:00",
+	"Sources": [
 		{
-			"Packages" : 
-			[
+			"Packages": [
 				{
-					"PackageIdentifier" : "Bitwarden.Bitwarden"
+					"PackageIdentifier": "Bitwarden.Bitwarden"
 				},
 				{
-					"PackageIdentifier" : "File-New-Project.EarTrumpet"
+					"PackageIdentifier": "File-New-Project.EarTrumpet"
 				},
 				{
-					"PackageIdentifier" : "BleachBit.BleachBit"
+					"PackageIdentifier": "BleachBit.BleachBit"
 				},
 				{
-					"PackageIdentifier" : "Brave.Brave"
+					"PackageIdentifier": "Brave.Brave"
 				},
 				{
-					"PackageIdentifier" : "Canonical.Ubuntu.2204"
+					"PackageIdentifier": "Canonical.Ubuntu.2204"
 				},
 				{
-					"PackageIdentifier" : "CrystalDewWorld.CrystalDiskInfo"
+					"PackageIdentifier": "CrystalDewWorld.CrystalDiskInfo"
 				},
 				{
-					"PackageIdentifier" : "CrystalDewWorld.CrystalDiskMark"
+					"PackageIdentifier": "voidtools.Everything"
 				},
 				{
-					"PackageIdentifier" : "voidtools.Everything"
+					"PackageIdentifier": "FastCopy.FastCopy"
 				},
 				{
-					"PackageIdentifier" : "FastCopy.FastCopy"
+					"PackageIdentifier": "GitHub.GitHubDesktop"
 				},
 				{
-					"PackageIdentifier" : "GIMP.GIMP"
+					"PackageIdentifier": "Git.Git"
 				},
 				{
-					"PackageIdentifier" : "GitHub.GitHubDesktop"
+					"PackageIdentifier": "HandBrake.HandBrake"
 				},
 				{
-					"PackageIdentifier" : "Git.Git"
+					"PackageIdentifier": "JetBrains.IntelliJIDEA.Community"
 				},
 				{
-					"PackageIdentifier" : "HandBrake.HandBrake"
+					"PackageIdentifier": "Microsoft.Edge"
 				},
 				{
-					"PackageIdentifier" : "JetBrains.IntelliJIDEA.Community"
+					"PackageIdentifier": "Microsoft.EdgeWebView2Runtime"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.Edge"
+					"PackageIdentifier": "Microsoft.WindowsTerminal"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
+					"PackageIdentifier": "Mozilla.Firefox"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.WindowsTerminal"
+					"PackageIdentifier": "JanDeDobbeleer.OhMyPosh"
 				},
 				{
-					"PackageIdentifier" : "Mozilla.Firefox"
+					"PackageIdentifier": "Meltytech.Shotcut"
 				},
 				{
-					"PackageIdentifier" : "JanDeDobbeleer.OhMyPosh"
+					"PackageIdentifier": "Spotify.Spotify"
 				},
 				{
-					"PackageIdentifier" : "Meltytech.Shotcut"
+					"PackageIdentifier": "SumatraPDF.SumatraPDF"
 				},
 				{
-					"PackageIdentifier" : "Spotify.Spotify"
+					"PackageIdentifier": "Zoom.Zoom"
 				},
 				{
-					"PackageIdentifier" : "SumatraPDF.SumatraPDF"
+					"PackageIdentifier": "PeterPawlowski.foobar2000"
 				},
 				{
-					"PackageIdentifier" : "Zoom.Zoom"
+					"PackageIdentifier": "KDE.Kdenlive"
 				},
 				{
-					"PackageIdentifier" : "PeterPawlowski.foobar2000"
+					"PackageIdentifier": "SlackTechnologies.Slack"
 				},
 				{
-					"PackageIdentifier" : "KDE.Kdenlive"
+					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.3_1"
 				},
 				{
-					"PackageIdentifier" : "SlackTechnologies.Slack"
+					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.5"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1"
+					"PackageIdentifier": "EclipseAdoptium.Temurin.17.JDK"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.5"
+					"PackageIdentifier": "Microsoft.PowerShell"
 				},
 				{
-					"PackageIdentifier" : "EclipseAdoptium.Temurin.17.JDK"
+					"PackageIdentifier": "Google.Chrome"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
+					"PackageIdentifier": "GitHub.cli"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome"
+					"PackageIdentifier": "Giorgiotani.Peazip"
 				},
 				{
-					"PackageIdentifier" : "GitHub.cli"
+					"PackageIdentifier": "Microsoft.VCRedist.2008.x64"
 				},
 				{
-					"PackageIdentifier" : "Giorgiotani.Peazip"
+					"PackageIdentifier": "Alacritty.Alacritty"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2008.x64"
+					"PackageIdentifier": "PicoTorrent.PicoTorrent"
 				},
 				{
-					"PackageIdentifier" : "Alacritty.Alacritty"
+					"PackageIdentifier": "Google.Drive"
 				},
 				{
-					"PackageIdentifier" : "PicoTorrent.PicoTorrent"
+					"PackageIdentifier": "Oracle.MySQL"
 				},
 				{
-					"PackageIdentifier" : "Google.Drive"
+					"PackageIdentifier": "Microsoft.VisualStudioCode"
 				},
 				{
-					"PackageIdentifier" : "Oracle.MySQL"
+					"PackageIdentifier": "Cloudflare.Warp"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+					"PackageIdentifier": "Microsoft.VCRedist.2015+.x64"
 				},
 				{
-					"PackageIdentifier" : "Cloudflare.Warp"
+					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.6"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+					"PackageIdentifier": "BlenderFoundation.Blender"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
+					"PackageIdentifier": "Microsoft.VCRedist.2008.x86"
 				},
 				{
-					"PackageIdentifier" : "BlenderFoundation.Blender"
+					"PackageIdentifier": "hluk.CopyQ"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86"
+					"PackageIdentifier": "Microsoft.DotNet.SDK.7"
 				},
 				{
-					"PackageIdentifier" : "hluk.CopyQ"
+					"PackageIdentifier": "gerardog.gsudo"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.SDK.7"
+					"PackageIdentifier": "Inkscape.Inkscape"
 				},
 				{
-					"PackageIdentifier" : "gerardog.gsudo"
+					"PackageIdentifier": "QL-Win.QuickLook"
 				},
 				{
-					"PackageIdentifier" : "Inkscape.Inkscape"
+					"PackageIdentifier": "Microsoft.PowerToys"
 				},
 				{
-					"PackageIdentifier" : "QL-Win.QuickLook"
+					"PackageIdentifier": "Python.Python.3.12"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
-				},
-				{
-					"PackageIdentifier" : "Python.Python.3.12"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7"
+					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.7"
 				}
 			],
-			"SourceDetails" : 
-			{
-				"Argument" : "https://cdn.winget.microsoft.com/cache",
-				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
-				"Name" : "winget",
-				"Type" : "Microsoft.PreIndexed.Package"
+			"SourceDetails": {
+				"Argument": "https://cdn.winget.microsoft.com/cache",
+				"Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name": "winget",
+				"Type": "Microsoft.PreIndexed.Package"
 			}
 		}
 	],
-	"WinGetVersion" : "1.5.1881"
+	"WinGetVersion": "1.5.1881"
 }
