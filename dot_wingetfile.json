@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-05-21T19:07:30.926-00:00",
+	"CreationDate" : "2023-07-23T15:02:57.192-00:00",
 	"Sources" : 
 	[
 		{
@@ -82,10 +82,10 @@
 					"PackageIdentifier" : "KDE.Kdenlive"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1"
+					"PackageIdentifier" : "SlackTechnologies.Slack"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.5"
@@ -94,7 +94,13 @@
 					"PackageIdentifier" : "EclipseAdoptium.Temurin.17.JDK"
 				},
 				{
-					"PackageIdentifier" : "Python.Python.3.12"
+					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome"
+				},
+				{
+					"PackageIdentifier" : "GitHub.cli"
 				},
 				{
 					"PackageIdentifier" : "DuongDieuPhap.ImageGlass"
@@ -106,19 +112,31 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2008.x64"
 				},
 				{
+					"PackageIdentifier" : "Alacritty.Alacritty"
+				},
+				{
 					"PackageIdentifier" : "PicoTorrent.PicoTorrent"
 				},
 				{
 					"PackageIdentifier" : "Google.Drive"
 				},
 				{
-					"PackageIdentifier" : "Cloudflare.Warp"
+					"PackageIdentifier" : "Oracle.MySQL"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode"
 				},
 				{
+					"PackageIdentifier" : "Cloudflare.Warp"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
+				},
+				{
+					"PackageIdentifier" : "BlenderFoundation.Blender"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86"
@@ -127,34 +145,28 @@
 					"PackageIdentifier" : "hluk.CopyQ"
 				},
 				{
-					"PackageIdentifier" : "Inkscape.Inkscape"
-				},
-				{
-					"PackageIdentifier" : "GitHub.cli"
-				},
-				{
-					"PackageIdentifier" : "BlenderFoundation.Blender"
-				},
-				{
-					"PackageIdentifier" : "QL-Win.QuickLook"
-				},
-				{
-					"PackageIdentifier" : "Alacritty.Alacritty"
-				},
-				{
-					"PackageIdentifier" : "Google.Chrome"
+					"PackageIdentifier" : "Microsoft.DotNet.SDK.7"
 				},
 				{
 					"PackageIdentifier" : "gerardog.gsudo"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7"
+					"PackageIdentifier" : "Inkscape.Inkscape"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+					"PackageIdentifier" : "DuongDieuPhap.ImageGlass"
+				},
+				{
+					"PackageIdentifier" : "QL-Win.QuickLook"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerToys"
+				},
+				{
+					"PackageIdentifier" : "Python.Python.3.12"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7"
 				}
 			],
 			"SourceDetails" : 
@@ -166,5 +178,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.4.10173"
+	"WinGetVersion" : "1.5.1881"
 }

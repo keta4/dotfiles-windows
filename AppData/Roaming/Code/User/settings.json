@@ -1,4 +1,5 @@
 {
+    "blockman.n32BlackListOfFileFormats": "plaintext, log, markdown, sql",
     "boot-java.rewrite.reconcile": true,
     "cSpell.userWords": [
         "Adoptium",
@@ -231,7 +232,7 @@
     // フォント ファミリを制御します。
     "editor.fontFamily": "'Hack NF', Consolas, 'BIZ UDゴシック', 'モトヤLマルベリ3等幅', Cica, 'Courier New', monospace",
     // font-sizeをあげてる。
-    "editor.fontSize": 15,
+    "editor.fontSize": 14,
     // 貼り付けを行ったときに自動でフォーマット
     "editor.formatOnPaste": true,
     // ファイル保存時に自動でフォーマット
@@ -239,7 +240,7 @@
     // 入力した行を自動でフォーマット
     "editor.formatOnType": true,
     // 開始と終了のブラケットが強調表示されます。
-    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairs": false,
     // 水平方向のブラケット ペアのガイドを有効にする
     "editor.guides.bracketPairsHorizontal": true,
     // エディターで解説ヒントのフォント ファミリを制御します。
@@ -294,7 +295,7 @@
     // 単語の区切り文字
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?　、。！？「」【】『』（）にをはがのともへ",
     // 行の折り返し表示
-    "editor.wordWrap": "on",
+    "editor.wordWrap": "off",
     // Enable Emmet abbreviations in languages that are not supported by default.
     "emmet.includeLanguages": {
         "javascript": "javascriptreact, css, html",
@@ -321,9 +322,11 @@
     // ファイル保存時に最終行に改行を挿入
     "files.insertFinalNewline": true,
     // ファイル保存時に最終行以降の空行を削除
-    "files.trimFinalNewlines": true,
+    // "files.trimFinalNewlines": true,
+    "files.trimFinalNewlines": false,
     // ファイル保存時に各行の末尾にある半角スペースを削除
-    "files.trimTrailingWhitespace": true,
+    // "files.trimTrailingWhitespace": true,
+    "files.trimTrailingWhitespace": false,
     // commits will automatically be fetched from the default remote of the current Git repository.
     "git.autofetch": true,
     // git リポジトリを同期する前に確認しないようにする。
@@ -420,7 +423,9 @@
     // 現在選択している配色テーマで配色を上書きします。
     "workbench.colorCustomizations": {
         "editorCursor.foreground": "#f858f07f",
-        "terminalCursor.foreground": "#f858f07f"
+        "terminalCursor.foreground": "#f858f07f",
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f"
     },
     // vscode のテーマを変更します。
     "workbench.colorTheme": "GitHub Dark Default",
@@ -479,11 +484,11 @@
         "editor.formatOnType": true
     },
     "[sql]": {
-        "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+        "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
     },
-    "Codegeex.Privacy": false,
-    "lldb.suppressUpdateNotifications": true,
-    "aws.telemetry": false,
+    "editor.inlayHints.enabled": "off",
+    "diffEditor.wordWrap": "off",
+    "editor.guides.indentation": false,
 }
 // https://zenn.dev/ruru/articles/396265425c9740
 // https://zenn.dev/hulk510/articles/vscode-suggest-more-useful
