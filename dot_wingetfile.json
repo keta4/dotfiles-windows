@@ -125,9 +125,6 @@
 					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.6"
 				},
 				{
-					"PackageIdentifier": "BlenderFoundation.Blender"
-				},
-				{
 					"PackageIdentifier": "Microsoft.VCRedist.2008.x86"
 				},
 				{
