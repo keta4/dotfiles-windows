@@ -352,6 +352,7 @@
     // Controls the font family used in the Markdown preview.
     "markdown.preview.fontFamily": "Consolas, 'Courier New', monospace",
     "markdownlint.config": {
+        "MD024": false,
         "MD033": {
             "allowed_elements": [
                 "details",
