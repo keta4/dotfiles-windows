@@ -230,7 +230,7 @@
     // 選択範囲を指定しないでコピーする場合に現在の行をコピーするかどうかを制御します。
     "editor.emptySelectionClipboard": false,
     // フォント ファミリを制御します。
-    "editor.fontFamily": "'Hack NF', Consolas, 'BIZ UDゴシック', 'モトヤLマルベリ3等幅', Cica, 'Courier New', monospace",
+    "editor.fontFamily": "'Hack Nerd Font', Consolas, 'BIZ UDゴシック', 'モトヤLマルベリ3等幅', Cica, 'Courier New', monospace",
     // font-sizeをあげてる。
     "editor.fontSize": 14,
     // 貼り付けを行ったときに自動でフォーマット
@@ -244,7 +244,7 @@
     // 水平方向のブラケット ペアのガイドを有効にする
     "editor.guides.bracketPairsHorizontal": true,
     // エディターで解説ヒントのフォント ファミリを制御します。
-    "editor.inlayHints.fontFamily": "'Hack NF', Consolas, 'BIZ UDゴシック', 'モトヤLマルベリ3等幅', Cica, 'Courier New', monospace",
+    "editor.inlayHints.fontFamily": "'Hack Nerd Font', Consolas, 'BIZ UDゴシック', 'モトヤLマルベリ3等幅', Cica, 'Courier New', monospace",
     // エディターにインライン候補を自動的に表示する
     "editor.inlineSuggest.enabled": true,
     // 文字の間隔を狭める
