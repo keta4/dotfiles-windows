@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-23T15:02:57.192-00:00",
+	"CreationDate" : "2023-07-23T15:15:03.397-00:00",
 	"Sources" : 
 	[
 		{
@@ -103,9 +103,6 @@
 					"PackageIdentifier" : "GitHub.cli"
 				},
 				{
-					"PackageIdentifier" : "DuongDieuPhap.ImageGlass"
-				},
-				{
 					"PackageIdentifier" : "Giorgiotani.Peazip"
 				},
 				{
@@ -152,9 +149,6 @@
 				},
 				{
 					"PackageIdentifier" : "Inkscape.Inkscape"
-				},
-				{
-					"PackageIdentifier" : "DuongDieuPhap.ImageGlass"
 				},
 				{
 					"PackageIdentifier" : "QL-Win.QuickLook"
