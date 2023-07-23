@@ -110,9 +110,6 @@
 					"PackageIdentifier": "Google.Drive"
 				},
 				{
-					"PackageIdentifier": "Oracle.MySQL"
-				},
-				{
 					"PackageIdentifier": "Microsoft.VisualStudioCode"
 				},
 				{
