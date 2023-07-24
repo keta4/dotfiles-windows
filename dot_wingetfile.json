@@ -1,149 +1,143 @@
 {
-	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-24T12:50:39.582-00:00",
-	"Sources" : 
-	[
+	"$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate": "2023-07-24T12:50:39.582-00:00",
+	"Sources": [
 		{
-			"Packages" : 
-			[
+			"Packages": [
 				{
-					"PackageIdentifier" : "Bitwarden.Bitwarden"
+					"PackageIdentifier": "Bitwarden.Bitwarden"
 				},
 				{
-					"PackageIdentifier" : "File-New-Project.EarTrumpet"
+					"PackageIdentifier": "File-New-Project.EarTrumpet"
 				},
 				{
-					"PackageIdentifier" : "BleachBit.BleachBit"
+					"PackageIdentifier": "BleachBit.BleachBit"
 				},
 				{
-					"PackageIdentifier" : "Brave.Brave"
+					"PackageIdentifier": "Brave.Brave"
 				},
 				{
-					"PackageIdentifier" : "Canonical.Ubuntu.2204"
+					"PackageIdentifier": "Canonical.Ubuntu.2204"
 				},
 				{
-					"PackageIdentifier" : "CrystalDewWorld.CrystalDiskInfo"
+					"PackageIdentifier": "CrystalDewWorld.CrystalDiskInfo"
 				},
 				{
-					"PackageIdentifier" : "voidtools.Everything"
+					"PackageIdentifier": "voidtools.Everything"
 				},
 				{
-					"PackageIdentifier" : "FastCopy.FastCopy"
+					"PackageIdentifier": "FastCopy.FastCopy"
 				},
 				{
-					"PackageIdentifier" : "GitHub.GitHubDesktop"
+					"PackageIdentifier": "GitHub.GitHubDesktop"
 				},
 				{
-					"PackageIdentifier" : "Git.Git"
+					"PackageIdentifier": "Git.Git"
 				},
 				{
-					"PackageIdentifier" : "HandBrake.HandBrake"
+					"PackageIdentifier": "HandBrake.HandBrake"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.Edge"
+					"PackageIdentifier": "Microsoft.Edge"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
+					"PackageIdentifier": "Microsoft.EdgeWebView2Runtime"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.WindowsTerminal"
+					"PackageIdentifier": "Microsoft.WindowsTerminal"
 				},
 				{
-					"PackageIdentifier" : "Mozilla.Firefox"
+					"PackageIdentifier": "Mozilla.Firefox"
 				},
 				{
-					"PackageIdentifier" : "JanDeDobbeleer.OhMyPosh"
+					"PackageIdentifier": "JanDeDobbeleer.OhMyPosh"
 				},
 				{
-					"PackageIdentifier" : "Meltytech.Shotcut"
+					"PackageIdentifier": "Meltytech.Shotcut"
 				},
 				{
-					"PackageIdentifier" : "SumatraPDF.SumatraPDF"
+					"PackageIdentifier": "SumatraPDF.SumatraPDF"
 				},
 				{
-					"PackageIdentifier" : "Zoom.Zoom"
+					"PackageIdentifier": "Zoom.Zoom"
 				},
 				{
-					"PackageIdentifier" : "PeterPawlowski.foobar2000"
+					"PackageIdentifier": "PeterPawlowski.foobar2000"
 				},
 				{
-					"PackageIdentifier" : "KDE.Kdenlive"
+					"PackageIdentifier": "KDE.Kdenlive"
 				},
 				{
-					"PackageIdentifier" : "SlackTechnologies.Slack"
+					"PackageIdentifier": "SlackTechnologies.Slack"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1"
+					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.3_1"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.5"
+					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.5"
 				},
 				{
-					"PackageIdentifier" : "EclipseAdoptium.Temurin.17.JDK"
+					"PackageIdentifier": "EclipseAdoptium.Temurin.17.JDK"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
+					"PackageIdentifier": "Microsoft.PowerShell"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome"
+					"PackageIdentifier": "Google.Chrome"
 				},
 				{
-					"PackageIdentifier" : "GitHub.cli"
+					"PackageIdentifier": "GitHub.cli"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
+					"PackageIdentifier": "Microsoft.PowerToys"
 				},
 				{
-					"PackageIdentifier" : "Giorgiotani.Peazip"
+					"PackageIdentifier": "Giorgiotani.Peazip"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2008.x64"
+					"PackageIdentifier": "Microsoft.VCRedist.2008.x64"
 				},
 				{
-					"PackageIdentifier" : "Alacritty.Alacritty"
+					"PackageIdentifier": "Alacritty.Alacritty"
 				},
 				{
-					"PackageIdentifier" : "PicoTorrent.PicoTorrent"
+					"PackageIdentifier": "Google.Drive"
 				},
 				{
-					"PackageIdentifier" : "Google.Drive"
+					"PackageIdentifier": "Microsoft.VisualStudioCode"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+					"PackageIdentifier": "Microsoft.VCRedist.2015+.x64"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.6"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
+					"PackageIdentifier": "hluk.CopyQ"
 				},
 				{
-					"PackageIdentifier" : "hluk.CopyQ"
+					"PackageIdentifier": "Microsoft.DotNet.SDK.7"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.SDK.7"
+					"PackageIdentifier": "gerardog.gsudo"
 				},
 				{
-					"PackageIdentifier" : "gerardog.gsudo"
+					"PackageIdentifier": "Inkscape.Inkscape"
 				},
 				{
-					"PackageIdentifier" : "Inkscape.Inkscape"
+					"PackageIdentifier": "QL-Win.QuickLook"
 				},
 				{
-					"PackageIdentifier" : "QL-Win.QuickLook"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7"
+					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.7"
 				}
 			],
-			"SourceDetails" : 
-			{
-				"Argument" : "https://winget.azureedge.net/cache",
-				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
-				"Name" : "winget",
-				"Type" : "Microsoft.PreIndexed.Package"
+			"SourceDetails": {
+				"Argument": "https://winget.azureedge.net/cache",
+				"Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name": "winget",
+				"Type": "Microsoft.PreIndexed.Package"
 			}
 		}
 	],
-	"WinGetVersion" : "1.2.10691"
+	"WinGetVersion": "1.2.10691"
 }
