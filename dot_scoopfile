@@ -1,15 +1,374 @@
 {
+    "apps": [
+        {
+            "Updated": "2023-07-23T18:46:55.2349135+09:00",
+            "Version": "23.01",
+            "Source": "main",
+            "Name": "7zip",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:49:41.1877698+09:00",
+            "Version": "34.0.4",
+            "Source": "main",
+            "Name": "adb",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:50:39.9086918+09:00",
+            "Version": "4333796",
+            "Source": "extras",
+            "Name": "android-sdk",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T18:46:48.8655084+09:00",
+            "Version": "1.36.0-1",
+            "Source": "main",
+            "Name": "aria2",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:50:41.4815992+09:00",
+            "Version": "0.23.0",
+            "Source": "main",
+            "Name": "bat",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-27T13:02:36.5960506+09:00",
+            "Version": "4.4.2",
+            "Source": "extras",
+            "Name": "bleachbit",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:50:50.7186019+09:00",
+            "Version": "1.24.2",
+            "Source": "main",
+            "Name": "broot",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T18:48:12.5513629+09:00",
+            "Version": "2.35.2",
+            "Source": "main",
+            "Name": "chezmoi",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-27T12:12:19.3627894+09:00",
+            "Version": "115.0.5790.110-r1148114",
+            "Source": "extras",
+            "Name": "chromium",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-27T12:16:52.2142455+09:00",
+            "Version": "1.18",
+            "Source": "extras",
+            "Name": "coretemp",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-27T12:16:58.9004835+09:00",
+            "Version": "2.06",
+            "Source": "extras",
+            "Name": "cpu-z",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-28T07:05:33.7393918+09:00",
+            "Version": "9.1.1",
+            "Source": "extras",
+            "Name": "crystaldiskinfo",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-28T07:05:38.6368871+09:00",
+            "Version": "8.0.4c",
+            "Source": "extras",
+            "Name": "crystaldiskmark",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:50:52.141741+09:00",
+            "Version": "1.2.2",
+            "Source": "main",
+            "Name": "csview",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T18:48:32.5975008+09:00",
+            "Version": "3.11.2",
+            "Source": "main",
+            "Name": "dark",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:50:53.6352995+09:00",
+            "Version": "0.16.5",
+            "Source": "main",
+            "Name": "delta",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:50:55.0773466+09:00",
+            "Version": "0.8.6",
+            "Source": "main",
+            "Name": "dust",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:50:56.496588+09:00",
+            "Version": "8.7.0",
+            "Source": "main",
+            "Name": "fd",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:51:02.6862946+09:00",
+            "Version": "1.4.3",
+            "Source": "main",
+            "Name": "flac",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-27T13:08:18.7227262+09:00",
+            "Version": "2.0",
+            "Source": "extras",
+            "Name": "foobar2000",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:51:04.1697794+09:00",
+            "Version": "0.42.0",
+            "Source": "main",
+            "Name": "fzf",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:51:09.2755632+09:00",
+            "Version": "1.5.1.162",
+            "Source": "extras",
+            "Name": "geekuninstaller",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:51:11.1444128+09:00",
+            "Version": "1.2.2",
+            "Source": "main",
+            "Name": "genact",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T18:48:34.5669208+09:00",
+            "Version": "1.4.2",
+            "Source": "main",
+            "Name": "ghq",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T18:47:11.3660656+09:00",
+            "Version": "2.41.0.3",
+            "Source": "main",
+            "Name": "git",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:51:12.8841396+09:00",
+            "Version": "0.23.0",
+            "Source": "main",
+            "Name": "gitui",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:53:47.3509168+09:00",
+            "Version": "8.2.1",
+            "Source": "main",
+            "Name": "gradle",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-27T12:12:21.0190494+09:00",
+            "Version": "1.4.2",
+            "Source": "main",
+            "Name": "grex",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:53:51.1078766+09:00",
+            "Version": "1.17.0",
+            "Source": "main",
+            "Name": "hyperfine",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T18:48:35.6031816+09:00",
+            "Version": "0.50",
+            "Source": "main",
+            "Name": "innounp",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:53:52.637996+09:00",
+            "Version": "1.6",
+            "Source": "main",
+            "Name": "jq",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:54:21.4590649+09:00",
+            "Version": "1.9.0",
+            "Source": "main",
+            "Name": "kotlin",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:55:03.1603205+09:00",
+            "Version": "3.54.0",
+            "Source": "extras",
+            "Name": "losslesscut",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:55:05.6801962+09:00",
+            "Version": "0.23.1",
+            "Source": "main",
+            "Name": "lsd",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:55:30.3789304+09:00",
+            "Version": "0.9.1",
+            "Source": "main",
+            "Name": "neovim",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:55:31.0997136+09:00",
+            "Version": "1.1.0",
+            "Source": "extras",
+            "Name": "posh-git",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:55:32.4186176+09:00",
+            "Version": "0.14.0",
+            "Source": "main",
+            "Name": "procs",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:56:26.6160013+09:00",
+            "Version": "2.57.0.0",
+            "Source": "extras",
+            "Name": "registry-finder",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T18:48:36.8234371+09:00",
+            "Version": "13.0.0",
+            "Source": "main",
+            "Name": "ripgrep",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-27T12:12:22.4190452+09:00",
+            "Version": "4.2",
+            "Source": "extras",
+            "Name": "rufus",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:56:33.3360748+09:00",
+            "Version": "0.7.5",
+            "Source": "main",
+            "Name": "sd",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:56:47.5143301+09:00",
+            "Version": "1.12.14.755",
+            "Source": "extras",
+            "Name": "snappy-driver-installer-origin",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-27T12:12:24.0928455+09:00",
+            "Version": "1.0.97",
+            "Source": "extras",
+            "Name": "sophiapp",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T18:48:39.9501176+09:00",
+            "Version": "1.15.0",
+            "Source": "main",
+            "Name": "starship",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T18:47:11.8532519+09:00",
+            "Version": "0.2020.01.26",
+            "Source": "main",
+            "Name": "sudo",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:56:48.1689375+09:00",
+            "Version": "0.11.0",
+            "Source": "extras",
+            "Name": "terminal-icons",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:56:50.0907863+09:00",
+            "Version": "12.1.2",
+            "Source": "main",
+            "Name": "tokei",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-26T15:40:16.7710194+09:00",
+            "Version": "12.0.2",
+            "Source": "main",
+            "Name": "topgrade",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T18:48:42.2977972+09:00",
+            "Version": "2.20",
+            "Source": "main",
+            "Name": "which",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:56:51.8442573+09:00",
+            "Version": "0.13.0",
+            "Source": "main",
+            "Name": "xsv",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-07-23T19:56:52.9921603+09:00",
+            "Version": "0.9.1",
+            "Source": "main",
+            "Name": "zoxide",
+            "Info": ""
+        }
+    ],
     "buckets": [
         {
             "Name": "Ash258",
             "Source": "https://github.com/Ash258/Scoop-Ash258.git",
-            "Updated": "2023-07-26T23:03:41+09:00",
+            "Updated": "2023-07-28T07:02:04+09:00",
             "Manifests": 351
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
-            "Updated": "2023-07-27T09:30:41+09:00",
+            "Updated": "2023-07-28T05:23:53+09:00",
             "Manifests": 1884
         },
         {
@@ -21,359 +380,14 @@
         {
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
-            "Updated": "2023-07-27T09:29:13+09:00",
+            "Updated": "2023-07-28T05:24:12+09:00",
             "Manifests": 1213
         },
         {
             "Name": "versions",
             "Source": "https://github.com/ScoopInstaller/Versions",
-            "Updated": "2023-07-27T10:38:21+09:00",
+            "Updated": "2023-07-28T05:27:25+09:00",
             "Manifests": 425
-        }
-    ],
-    "apps": [
-        {
-            "Name": "7zip",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T18:46:55.2349135+09:00",
-            "Version": "23.01"
-        },
-        {
-            "Name": "adb",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:49:41.1877698+09:00",
-            "Version": "34.0.4"
-        },
-        {
-            "Name": "android-sdk",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2023-07-23T19:50:39.9086918+09:00",
-            "Version": "4333796"
-        },
-        {
-            "Name": "aria2",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T18:46:48.8655084+09:00",
-            "Version": "1.36.0-1"
-        },
-        {
-            "Name": "bat",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:50:41.4815992+09:00",
-            "Version": "0.23.0"
-        },
-        {
-            "Name": "bleachbit",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2023-07-27T13:02:36.5960506+09:00",
-            "Version": "4.4.2"
-        },
-        {
-            "Name": "broot",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:50:50.7186019+09:00",
-            "Version": "1.24.2"
-        },
-        {
-            "Name": "chezmoi",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T18:48:12.5513629+09:00",
-            "Version": "2.35.2"
-        },
-        {
-            "Name": "chromium",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2023-07-27T12:12:19.3627894+09:00",
-            "Version": "115.0.5790.110-r1148114"
-        },
-        {
-            "Name": "coretemp",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2023-07-27T12:16:52.2142455+09:00",
-            "Version": "1.18"
-        },
-        {
-            "Name": "cpu-z",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2023-07-27T12:16:58.9004835+09:00",
-            "Version": "2.06"
-        },
-        {
-            "Name": "csview",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:50:52.141741+09:00",
-            "Version": "1.2.2"
-        },
-        {
-            "Name": "dark",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T18:48:32.5975008+09:00",
-            "Version": "3.11.2"
-        },
-        {
-            "Name": "delta",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:50:53.6352995+09:00",
-            "Version": "0.16.5"
-        },
-        {
-            "Name": "dust",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:50:55.0773466+09:00",
-            "Version": "0.8.6"
-        },
-        {
-            "Name": "fd",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:50:56.496588+09:00",
-            "Version": "8.7.0"
-        },
-        {
-            "Name": "flac",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:51:02.6862946+09:00",
-            "Version": "1.4.3"
-        },
-        {
-            "Name": "foobar2000",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2023-07-27T13:08:18.7227262+09:00",
-            "Version": "2.0"
-        },
-        {
-            "Name": "fzf",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:51:04.1697794+09:00",
-            "Version": "0.42.0"
-        },
-        {
-            "Name": "geekuninstaller",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2023-07-23T19:51:09.2755632+09:00",
-            "Version": "1.5.1.162"
-        },
-        {
-            "Name": "genact",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:51:11.1444128+09:00",
-            "Version": "1.2.2"
-        },
-        {
-            "Name": "ghq",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T18:48:34.5669208+09:00",
-            "Version": "1.4.2"
-        },
-        {
-            "Name": "git",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T18:47:11.3660656+09:00",
-            "Version": "2.41.0.3"
-        },
-        {
-            "Name": "gitui",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:51:12.8841396+09:00",
-            "Version": "0.23.0"
-        },
-        {
-            "Name": "gradle",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:53:47.3509168+09:00",
-            "Version": "8.2.1"
-        },
-        {
-            "Name": "grex",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-27T12:12:21.0190494+09:00",
-            "Version": "1.4.2"
-        },
-        {
-            "Name": "hyperfine",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:53:51.1078766+09:00",
-            "Version": "1.17.0"
-        },
-        {
-            "Name": "innounp",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T18:48:35.6031816+09:00",
-            "Version": "0.50"
-        },
-        {
-            "Name": "jq",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:53:52.637996+09:00",
-            "Version": "1.6"
-        },
-        {
-            "Name": "kotlin",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:54:21.4590649+09:00",
-            "Version": "1.9.0"
-        },
-        {
-            "Name": "losslesscut",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2023-07-23T19:55:03.1603205+09:00",
-            "Version": "3.54.0"
-        },
-        {
-            "Name": "lsd",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:55:05.6801962+09:00",
-            "Version": "0.23.1"
-        },
-        {
-            "Name": "neovim",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:55:30.3789304+09:00",
-            "Version": "0.9.1"
-        },
-        {
-            "Name": "posh-git",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2023-07-23T19:55:31.0997136+09:00",
-            "Version": "1.1.0"
-        },
-        {
-            "Name": "procs",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:55:32.4186176+09:00",
-            "Version": "0.14.0"
-        },
-        {
-            "Name": "registry-finder",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2023-07-23T19:56:26.6160013+09:00",
-            "Version": "2.57.0.0"
-        },
-        {
-            "Name": "ripgrep",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T18:48:36.8234371+09:00",
-            "Version": "13.0.0"
-        },
-        {
-            "Name": "rufus",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2023-07-27T12:12:22.4190452+09:00",
-            "Version": "4.2"
-        },
-        {
-            "Name": "sd",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:56:33.3360748+09:00",
-            "Version": "0.7.5"
-        },
-        {
-            "Name": "snappy-driver-installer-origin",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2023-07-23T19:56:47.5143301+09:00",
-            "Version": "1.12.14.755"
-        },
-        {
-            "Name": "sophiapp",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2023-07-27T12:12:24.0928455+09:00",
-            "Version": "1.0.97"
-        },
-        {
-            "Name": "starship",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T18:48:39.9501176+09:00",
-            "Version": "1.15.0"
-        },
-        {
-            "Name": "sudo",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T18:47:11.8532519+09:00",
-            "Version": "0.2020.01.26"
-        },
-        {
-            "Name": "terminal-icons",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2023-07-23T19:56:48.1689375+09:00",
-            "Version": "0.11.0"
-        },
-        {
-            "Name": "tokei",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:56:50.0907863+09:00",
-            "Version": "12.1.2"
-        },
-        {
-            "Name": "topgrade",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-26T15:40:16.7710194+09:00",
-            "Version": "12.0.2"
-        },
-        {
-            "Name": "which",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T18:48:42.2977972+09:00",
-            "Version": "2.20"
-        },
-        {
-            "Name": "xsv",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:56:51.8442573+09:00",
-            "Version": "0.13.0"
-        },
-        {
-            "Name": "zoxide",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2023-07-23T19:56:52.9921603+09:00",
-            "Version": "0.9.1"
         }
     ]
 }
