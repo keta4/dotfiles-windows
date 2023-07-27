@@ -39,6 +39,8 @@
         "containerd",
         "CPUID",
         "createsuperuser",
+        "crystaldiskinfo",
+        "crystaldiskmark",
         "csview",
         "dbaeumer",
         "ddof",
