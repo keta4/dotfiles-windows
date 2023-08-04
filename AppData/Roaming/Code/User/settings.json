@@ -79,6 +79,7 @@
         "gsudo",
         "hexeditor",
         "HKCU",
+        "HKLM",
         "hluk",
         "hotspot",
         "Howie",
@@ -493,6 +494,7 @@
     "editor.inlayHints.enabled": "off",
     "diffEditor.wordWrap": "off",
     "editor.guides.indentation": false,
+    "update.showReleaseNotes": false,
 }
 // https://zenn.dev/ruru/articles/396265425c9740
 // https://zenn.dev/hulk510/articles/vscode-suggest-more-useful
