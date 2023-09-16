@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-08-13T09:59:31.696-00:00",
+	"CreationDate" : "2023-09-17T08:36:54.772-00:00",
 	"Sources" : 
 	[
 		{
@@ -34,9 +34,6 @@
 					"PackageIdentifier" : "HandBrake.HandBrake"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.Edge"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
 				},
 				{
@@ -67,7 +64,7 @@
 					"PackageIdentifier" : "SlackTechnologies.Slack"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.SDK.7"
+					"PackageIdentifier" : "ApacheFriends.Xampp.8.2"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1"
@@ -79,16 +76,19 @@
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.5"
 				},
 				{
-					"PackageIdentifier" : "GitHub.cli"
+					"PackageIdentifier" : "Google.NearbyShare"
 				},
 				{
 					"PackageIdentifier" : "Inkscape.Inkscape"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
 					"PackageIdentifier" : "EclipseAdoptium.Temurin.17.JDK"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7"
 				},
 				{
 					"PackageIdentifier" : "Giorgiotani.Peazip"
@@ -97,22 +97,19 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2008.x64"
 				},
 				{
-					"PackageIdentifier" : "CyberCat.ADBAppControl"
-				},
-				{
 					"PackageIdentifier" : "Alacritty.Alacritty"
 				},
 				{
-					"PackageIdentifier" : "Google.Drive"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7"
+					"PackageIdentifier" : "gerardog.gsudo"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
+					"PackageIdentifier" : "Microsoft.DotNet.SDK.7"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome"
 				},
 				{
 					"PackageIdentifier" : "hluk.CopyQ"
@@ -121,16 +118,19 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				},
 				{
-					"PackageIdentifier" : "gerardog.gsudo"
-				},
-				{
-					"PackageIdentifier" : "Google.Chrome"
-				},
-				{
 					"PackageIdentifier" : "QL-Win.QuickLook"
 				},
 				{
-					"PackageIdentifier" : "Google.NearbyShare"
+					"PackageIdentifier" : "Microsoft.Edge"
+				},
+				{
+					"PackageIdentifier" : "TheDocumentFoundation.LibreOffice"
+				},
+				{
+					"PackageIdentifier" : "GitHub.cli"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
 				}
 			],
 			"SourceDetails" : 
@@ -142,5 +142,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.5.1881"
+	"WinGetVersion" : "1.5.2201"
 }
