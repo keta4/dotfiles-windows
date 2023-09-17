@@ -61,6 +61,7 @@
         "dpkg",
         "Duong",
         "eamodio",
+        "endsection",
         "errorclass",
         "errorlens",
         "esbenp",
@@ -110,6 +111,7 @@
         "Kodi",
         "kohler",
         "Kyokasho",
+        "laravel",
         "Levitsky",
         "linuxbrew",
         "Listview",
@@ -479,6 +481,12 @@
     "[markdown]": {
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
         "files.trimTrailingWhitespace": false
+    },
+    "[php]": {
+        "editor.formatOnPaste": false,
+        "editor.formatOnSave": false,
+        "editor.formatOnType": false,
+        "editor.tabSize": 4
     },
     "[powershell]": {
         "editor.tabSize": 4,
