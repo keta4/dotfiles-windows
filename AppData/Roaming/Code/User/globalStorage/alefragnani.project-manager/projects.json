@@ -63,8 +63,8 @@
 		"enabled": true
 	},
 	{
-		"name": "laravel9-app-crud",
-		"rootPath": "vscode-remote://wsl+Ubuntu/home/keta/ghq/github.com/keta4/laravel9-app-crud",
+		"name": "laravel-todo",
+		"rootPath": "c:\\Users\\keta\\ghq\\github.com\\keta4\\laravel-todo",
 		"paths": [],
 		"tags": [],
 		"enabled": true
