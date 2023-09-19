@@ -89,6 +89,7 @@
         "hotspot",
         "Howie",
         "ignorecase",
+        "imgpath",
         "inferrinizzard",
         "initializr",
         "Inkscape",
@@ -467,6 +468,12 @@
     "workbench.startupEditor": "none",
     // ファイルツリーにインデントのガイド線を表示する
     "workbench.tree.renderIndentGuides": "always",
+    "[css]": {
+        "editor.tabSize": 4
+    },
+    "[scss]": {
+        "editor.tabSize": 4
+    },
     "[java]": {
         "editor.glyphMargin": true,
         "editor.tabSize": 4
