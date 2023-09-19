@@ -71,6 +71,13 @@
 	},
 	{
 		"name": "laravel-todo",
+		"rootPath": "vscode-remote://wsl+Ubuntu/home/keta/ghq/github.com/keta4/laravel-todo",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "laravel-todo-windows",
 		"rootPath": "c:\\Users\\keta\\ghq\\github.com\\keta4\\laravel-todo",
 		"paths": [],
 		"tags": [],
