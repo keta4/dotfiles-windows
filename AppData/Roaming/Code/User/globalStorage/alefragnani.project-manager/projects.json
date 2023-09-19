@@ -64,6 +64,13 @@
 	},
 	{
 		"name": "laravel-ec",
+		"rootPath": "vscode-remote://wsl+Ubuntu/home/keta/ghq/github.com/keta4/laravel-ec",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "laravel-ec-windows",
 		"rootPath": "c:\\Users\\keta\\ghq\\github.com\\keta4\\laravel-ec",
 		"paths": [],
 		"tags": [],
