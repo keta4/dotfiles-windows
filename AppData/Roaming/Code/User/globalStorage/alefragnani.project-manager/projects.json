@@ -70,8 +70,8 @@
 		"enabled": true
 	},
 	{
-		"name": "laravel10-todo",
-		"rootPath": "vscode-remote://wsl+Ubuntu/home/keta/ghq/github.com/keta4/laravel10-todo",
+		"name": "laravel-commodity-master",
+		"rootPath": "vscode-remote://wsl+Ubuntu/home/keta/ghq/github.com/keta4/laravel-commodity-master",
 		"paths": [],
 		"tags": [],
 		"enabled": true
