@@ -70,6 +70,13 @@
 		"enabled": true
 	},
 	{
+		"name": "laravel10-todo",
+		"rootPath": "vscode-remote://wsl+Ubuntu/home/keta/ghq/github.com/keta4/laravel10-todo",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
 		"name": "dotfiles-ubuntu",
 		"rootPath": "vscode-remote://wsl+Ubuntu/home/keta/.local/share/chezmoi",
 		"paths": [],
