@@ -1,6 +1,6 @@
 {
 	"$schema": "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate": "2023-09-17T08:36:54.772-00:00",
+	"CreationDate": "2024-02-15T18:57:53.195-00:00",
 	"Sources": [
 		{
 			"Packages": [
@@ -29,7 +29,25 @@
 					"PackageIdentifier": "HandBrake.HandBrake"
 				},
 				{
+					"PackageIdentifier": "Microsoft.Edge"
+				},
+				{
 					"PackageIdentifier": "Microsoft.EdgeWebView2Runtime"
+				},
+				{
+					"PackageIdentifier": "Microsoft.AppInstaller"
+				},
+				{
+					"PackageIdentifier": "Microsoft.UI.Xaml.2.7"
+				},
+				{
+					"PackageIdentifier": "Microsoft.UI.Xaml.2.8"
+				},
+				{
+					"PackageIdentifier": "Microsoft.VCLibs.Desktop.14"
+				},
+				{
+					"PackageIdentifier": "Microsoft.DevHome"
 				},
 				{
 					"PackageIdentifier": "Microsoft.WindowsTerminal"
@@ -56,64 +74,64 @@
 					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.3_1"
 				},
 				{
-					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.6"
-				},
-				{
 					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.5"
 				},
 				{
-					"PackageIdentifier": "Google.NearbyShare"
-				},
-				{
-					"PackageIdentifier": "Inkscape.Inkscape"
-				},
-				{
-					"PackageIdentifier": "Microsoft.PowerShell"
-				},
-				{
-					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.7"
-				},
-				{
-					"PackageIdentifier": "Giorgiotani.Peazip"
-				},
-				{
-					"PackageIdentifier": "Microsoft.VCRedist.2008.x64"
-				},
-				{
-					"PackageIdentifier": "Alacritty.Alacritty"
-				},
-				{
-					"PackageIdentifier": "gerardog.gsudo"
-				},
-				{
-					"PackageIdentifier": "Microsoft.VisualStudioCode"
-				},
-				{
-					"PackageIdentifier": "Microsoft.DotNet.SDK.7"
+					"PackageIdentifier": "Microsoft.PowerToys"
 				},
 				{
 					"PackageIdentifier": "Google.Chrome"
 				},
 				{
-					"PackageIdentifier": "hluk.CopyQ"
+					"PackageIdentifier": "Inkscape.Inkscape"
 				},
 				{
-					"PackageIdentifier": "Microsoft.VCRedist.2015+.x64"
+					"PackageIdentifier": "Alacritty.Alacritty"
 				},
 				{
-					"PackageIdentifier": "QL-Win.QuickLook"
-				},
-				{
-					"PackageIdentifier": "Microsoft.Edge"
+					"PackageIdentifier": "Giorgiotani.Peazip"
 				},
 				{
 					"PackageIdentifier": "TheDocumentFoundation.LibreOffice"
 				},
 				{
+					"PackageIdentifier": "Microsoft.VCRedist.2008.x64"
+				},
+				{
+					"PackageIdentifier": "Microsoft.DotNet.SDK.7"
+				},
+				{
+					"PackageIdentifier": "Microsoft.VisualStudioCode"
+				},
+				{
+					"PackageIdentifier": "hluk.CopyQ"
+				},
+				{
+					"PackageIdentifier": "Adobe.Acrobat.Reader.64-bit"
+				},
+				{
+					"PackageIdentifier": "Microsoft.PowerShell"
+				},
+				{
 					"PackageIdentifier": "GitHub.cli"
 				},
 				{
-					"PackageIdentifier": "Microsoft.PowerToys"
+					"PackageIdentifier": "QL-Win.QuickLook"
+				},
+				{
+					"PackageIdentifier": "Google.NearbyShare"
+				},
+				{
+					"PackageIdentifier": "gerardog.gsudo"
+				},
+				{
+					"PackageIdentifier": "Microsoft.VCRedist.2015+.x64"
+				},
+				{
+					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.6"
+				},
+				{
+					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.7"
 				}
 			],
 			"SourceDetails": {
@@ -124,5 +142,5 @@
 			}
 		}
 	],
-	"WinGetVersion": "1.5.2201"
+	"WinGetVersion": "1.6.3482"
 }
