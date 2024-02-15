@@ -14,9 +14,6 @@
 					"PackageIdentifier": "Brave.Brave"
 				},
 				{
-					"PackageIdentifier": "Canonical.Ubuntu.2204"
-				},
-				{
 					"PackageIdentifier": "voidtools.Everything"
 				},
 				{
@@ -50,9 +47,6 @@
 					"PackageIdentifier": "Meltytech.Shotcut"
 				},
 				{
-					"PackageIdentifier": "SumatraPDF.SumatraPDF"
-				},
-				{
 					"PackageIdentifier": "Zoom.Zoom"
 				},
 				{
@@ -75,9 +69,6 @@
 				},
 				{
 					"PackageIdentifier": "Microsoft.PowerShell"
-				},
-				{
-					"PackageIdentifier": "EclipseAdoptium.Temurin.17.JDK"
 				},
 				{
 					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.7"
