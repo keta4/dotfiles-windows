@@ -122,6 +122,7 @@
         "mechatroner",
         "Meltytech",
         "mrmlnc",
+        "msixbundle",
         "mypy",
         "nemi",
         "neovim",
@@ -230,8 +231,8 @@
     "editor.bracketPairColorization.enabled": true,
     // ファイル保存時にESLintでフォーマット
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true,
-        "source.organizeImports": true
+        "source.fixAll.eslint": "explicit",
+        "source.organizeImports": "explicit"
     },
     // CodeLens のフォント ファミリを制御します。
     "editor.codeLensFontFamily": "Consolas, 'Courier New', monospace",
@@ -309,7 +310,7 @@
     // 基本 ASCII 以外のすべての文字を強調表示するかどうかを制御します。
     "editor.unicodeHighlight.nonBasicASCII": false,
     // ドキュメント内の単語に基づいて入力候補を計算するかどうかを制御します。
-    "editor.wordBasedSuggestions": false,
+    "editor.wordBasedSuggestions": "off",
     // 単語の区切り文字
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?　、。！？「」【】『』（）にをはがのともへ",
     // 行の折り返し表示
@@ -506,7 +507,7 @@
             "!Module"
         ],
         "editor.codeActionsOnSave": {
-            "source.fixAll": true
+            "source.fixAll": "explicit"
         },
         "editor.formatOnType": true
     },
