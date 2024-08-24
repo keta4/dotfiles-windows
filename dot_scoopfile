@@ -330,13 +330,6 @@
             "Name": "topgrade"
         },
         {
-            "Source": "extras",
-            "Updated": "2024-02-15T18:25:30.9275701+09:00",
-            "Info": "",
-            "Version": "0.5.1",
-            "Name": "universal-android-debloater"
-        },
-        {
             "Source": "main",
             "Updated": "2024-02-15T18:20:37.4072204+09:00",
             "Info": "",
