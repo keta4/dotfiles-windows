@@ -20,9 +20,6 @@
 					"PackageIdentifier": "FastCopy.FastCopy"
 				},
 				{
-					"PackageIdentifier": "GitHub.GitHubDesktop"
-				},
-				{
 					"PackageIdentifier": "Git.Git"
 				},
 				{
@@ -65,9 +62,6 @@
 					"PackageIdentifier": "Meltytech.Shotcut"
 				},
 				{
-					"PackageIdentifier": "Zoom.Zoom"
-				},
-				{
 					"PackageIdentifier": "KDE.Kdenlive"
 				},
 				{
@@ -86,19 +80,10 @@
 					"PackageIdentifier": "Inkscape.Inkscape"
 				},
 				{
-					"PackageIdentifier": "Alacritty.Alacritty"
-				},
-				{
 					"PackageIdentifier": "Giorgiotani.Peazip"
 				},
 				{
 					"PackageIdentifier": "TheDocumentFoundation.LibreOffice"
-				},
-				{
-					"PackageIdentifier": "Microsoft.VCRedist.2008.x64"
-				},
-				{
-					"PackageIdentifier": "Microsoft.DotNet.SDK.7"
 				},
 				{
 					"PackageIdentifier": "Microsoft.VisualStudioCode"
@@ -113,16 +98,10 @@
 					"PackageIdentifier": "Microsoft.PowerShell"
 				},
 				{
-					"PackageIdentifier": "GitHub.cli"
-				},
-				{
-					"PackageIdentifier": "QL-Win.QuickLook"
-				},
-				{
-					"PackageIdentifier": "Google.NearbyShare"
-				},
-				{
 					"PackageIdentifier": "gerardog.gsudo"
+				},
+				{
+					"PackageIdentifier": "Samsung.SmartSwitch"
 				},
 				{
 					"PackageIdentifier": "Microsoft.VCRedist.2015+.x64"
