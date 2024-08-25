@@ -1,125 +1,134 @@
 {
-	"$schema": "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate": "2024-02-15T18:57:53.195-00:00",
-	"Sources": [
+	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate" : "2024-08-25T12:11:16.030-00:00",
+	"Sources" : 
+	[
 		{
-			"Packages": [
+			"Packages" : 
+			[
 				{
-					"PackageIdentifier": "Bitwarden.Bitwarden"
+					"PackageIdentifier" : "Git.Git"
 				},
 				{
-					"PackageIdentifier": "File-New-Project.EarTrumpet"
+					"PackageIdentifier" : "Mozilla.Firefox"
 				},
 				{
-					"PackageIdentifier": "Brave.Brave"
+					"PackageIdentifier" : "TheDocumentFoundation.LibreOffice"
 				},
 				{
-					"PackageIdentifier": "voidtools.Everything"
+					"PackageIdentifier" : "Inkscape.Inkscape"
 				},
 				{
-					"PackageIdentifier": "FastCopy.FastCopy"
+					"PackageIdentifier" : "Giorgiotani.Peazip"
 				},
 				{
-					"PackageIdentifier": "Git.Git"
+					"PackageIdentifier" : "Google.Chrome"
 				},
 				{
-					"PackageIdentifier": "HandBrake.HandBrake"
+					"PackageIdentifier" : "voidtools.Everything"
 				},
 				{
-					"PackageIdentifier": "Microsoft.Edge"
+					"PackageIdentifier" : "Adobe.Acrobat.Reader.64-bit"
 				},
 				{
-					"PackageIdentifier": "Microsoft.EdgeWebView2Runtime"
+					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
-					"PackageIdentifier": "Microsoft.AppInstaller"
+					"PackageIdentifier" : "gerardog.gsudo"
 				},
 				{
-					"PackageIdentifier": "Microsoft.UI.Xaml.2.7"
+					"PackageIdentifier" : "HandBrake.HandBrake"
 				},
 				{
-					"PackageIdentifier": "Microsoft.UI.Xaml.2.8"
+					"PackageIdentifier" : "Samsung.SmartSwitch"
 				},
 				{
-					"PackageIdentifier": "Microsoft.VCLibs.Desktop.14"
+					"PackageIdentifier" : "Microsoft.Edge"
 				},
 				{
-					"PackageIdentifier": "Microsoft.DevHome"
+					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
 				},
 				{
-					"PackageIdentifier": "Microsoft.WindowsTerminal"
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1"
 				},
 				{
-					"PackageIdentifier": "Mozilla.Firefox"
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.5"
 				},
 				{
-					"PackageIdentifier": "JanDeDobbeleer.OhMyPosh"
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7"
 				},
 				{
-					"PackageIdentifier": "Microsoft.OneDrive"
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				},
 				{
-					"PackageIdentifier": "Meltytech.Shotcut"
+					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86"
 				},
 				{
-					"PackageIdentifier": "KDE.Kdenlive"
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
 				},
 				{
-					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.3_1"
+					"PackageIdentifier" : "Bitwarden.Bitwarden"
 				},
 				{
-					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.5"
+					"PackageIdentifier" : "Brave.Brave"
 				},
 				{
-					"PackageIdentifier": "Microsoft.PowerToys"
+					"PackageIdentifier" : "FastCopy.FastCopy"
 				},
 				{
-					"PackageIdentifier": "Google.Chrome"
+					"PackageIdentifier" : "Google.PlatformTools"
 				},
 				{
-					"PackageIdentifier": "Inkscape.Inkscape"
+					"PackageIdentifier" : "JanDeDobbeleer.OhMyPosh"
 				},
 				{
-					"PackageIdentifier": "Giorgiotani.Peazip"
+					"PackageIdentifier" : "Microsoft.OneDrive"
 				},
 				{
-					"PackageIdentifier": "TheDocumentFoundation.LibreOffice"
+					"PackageIdentifier" : "Meltytech.Shotcut"
 				},
 				{
-					"PackageIdentifier": "Microsoft.VisualStudioCode"
+					"PackageIdentifier" : "KDE.Kdenlive"
 				},
 				{
-					"PackageIdentifier": "hluk.CopyQ"
+					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
-					"PackageIdentifier": "Adobe.Acrobat.Reader.64-bit"
+					"PackageIdentifier" : "Microsoft.VisualStudioCode"
 				},
 				{
-					"PackageIdentifier": "Microsoft.PowerShell"
+					"PackageIdentifier" : "hluk.CopyQ"
 				},
 				{
-					"PackageIdentifier": "gerardog.gsudo"
+					"PackageIdentifier" : "File-New-Project.EarTrumpet"
 				},
 				{
-					"PackageIdentifier": "Samsung.SmartSwitch"
+					"PackageIdentifier" : "Microsoft.AppInstaller"
 				},
 				{
-					"PackageIdentifier": "Microsoft.VCRedist.2015+.x64"
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7"
 				},
 				{
-					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.6"
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8"
 				},
 				{
-					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.7"
+					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DevHome"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsTerminal"
 				}
 			],
-			"SourceDetails": {
-				"Argument": "https://cdn.winget.microsoft.com/cache",
-				"Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
-				"Name": "winget",
-				"Type": "Microsoft.PreIndexed.Package"
+			"SourceDetails" : 
+			{
+				"Argument" : "https://cdn.winget.microsoft.com/cache",
+				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name" : "winget",
+				"Type" : "Microsoft.PreIndexed.Package"
 			}
 		}
 	],
-	"WinGetVersion": "1.6.3482"
+	"WinGetVersion" : "1.8.1911"
 }
