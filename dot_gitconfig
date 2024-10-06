@@ -28,3 +28,5 @@
 	autostash = true
 [credential]
 	helper = manager
+[credential "helperselector"]
+	selected = manager

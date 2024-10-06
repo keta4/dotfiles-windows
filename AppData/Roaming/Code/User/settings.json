@@ -172,6 +172,8 @@
         "runc",
         "runserver",
         "rustfmt",
+        "Rustlang",
+        "Rustup",
         "SATA",
         "satackey",
         "scipy",
