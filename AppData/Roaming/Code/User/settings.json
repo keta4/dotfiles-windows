@@ -162,6 +162,7 @@
         "pyproject",
         "pysen",
         "pytest",
+        "rakuten",
         "Redist",
         "reshim",
         "revanced",
@@ -345,6 +346,9 @@
     "emmet.variables": {
         "lang": "ja"
     },
+    "errorLens.enabledDiagnosticLevels": [
+        "error"
+    ],
     // 名前重複時の名前付け規則
     "explorer.incrementalNaming": "smart",
     // 拡張機能の推奨事項の通知を表示しません
@@ -536,6 +540,7 @@
     "security.allowedUNCHosts": [
         "wsl.localhost"
     ],
+    "lldb.suppressUpdateNotifications": true,
 }
 // https://zenn.dev/ruru/articles/396265425c9740
 // https://zenn.dev/hulk510/articles/vscode-suggest-more-useful

@@ -14,64 +14,8 @@
 		"enabled": true
 	},
 	{
-		"name": "resume-template",
-		"rootPath": "vscode-remote://wsl+Ubuntu/home/keta/ghq/github.com/keta4/resume-template",
-		"paths": [],
-		"tags": [],
-		"enabled": true
-	},
-	{
 		"name": "setup-windows",
 		"rootPath": "c:\\Users\\keta\\ghq\\github.com\\keta4\\setup-windows",
-		"paths": [],
-		"tags": [],
-		"enabled": true
-	},
-	{
-		"name": "tclock",
-		"rootPath": "vscode-remote://wsl+ubuntu/home/keta/ghq/github.com/keta4/tclock",
-		"paths": [],
-		"tags": [],
-		"enabled": true
-	},
-	{
-		"name": "spring-boot-java-sample",
-		"rootPath": "c:\\Users\\keta\\ghq\\github.com\\keta4\\spring-boot-java-sample",
-		"paths": [],
-		"tags": [],
-		"enabled": true
-	},
-	{
-		"name": "spring-boot-kotlin-sample",
-		"rootPath": "vscode-remote://wsl+ubuntu/home/keta/ghq/github.com/keta4/spring-boot-kotlin-sample",
-		"paths": [],
-		"tags": [],
-		"enabled": true
-	},
-	{
-		"name": "lp-vue",
-		"rootPath": "c:\\Users\\keta\\ghq\\github.com\\keta4\\lp-vue",
-		"paths": [],
-		"tags": [],
-		"enabled": true
-	},
-	{
-		"name": "djangoCrudApp",
-		"rootPath": "vscode-remote://wsl+Ubuntu/home/keta/ghq/github.com/keta4/djangoCrudApp",
-		"paths": [],
-		"tags": [],
-		"enabled": true
-	},
-	{
-		"name": "laravel-todo",
-		"rootPath": "vscode-remote://wsl+Ubuntu/home/keta/ghq/github.com/keta4/laravel-todo",
-		"paths": [],
-		"tags": [],
-		"enabled": true
-	},
-	{
-		"name": "laravel-commodity-master",
-		"rootPath": "vscode-remote://wsl+Ubuntu/home/keta/ghq/github.com/keta4/laravel-commodity-master",
 		"paths": [],
 		"tags": [],
 		"enabled": true
