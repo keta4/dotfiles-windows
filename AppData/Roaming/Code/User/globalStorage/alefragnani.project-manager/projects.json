@@ -19,5 +19,19 @@
 		"paths": [],
 		"tags": [],
 		"enabled": true
+	},
+	{
+		"name": "scrape-rakuten-market-requests",
+		"rootPath": "c:\\Users\\keta\\ghq\\github.com\\keta4\\scrape-rakuten-market-requests",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "scrape-rakuten-market-selenium",
+		"rootPath": "c:\\Users\\keta\\ghq\\github.com\\keta4\\scrape-rakuten-market-selenium",
+		"paths": [],
+		"tags": [],
+		"enabled": true
 	}
 ]
