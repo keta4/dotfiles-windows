@@ -389,6 +389,11 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     // Controls the font family used in the Markdown preview.
     "markdown.preview.fontFamily": "Consolas, 'Courier New', monospace",
+    "markdown-pdf.displayHeaderFooter": false,
+    "markdown-pdf.margin.bottom": "0.8cm",
+    "markdown-pdf.margin.left": "0.8cm",
+    "markdown-pdf.margin.right": "0.8cm",
+    "markdown-pdf.margin.top": "1.2cm",
     "markdownlint.config": {
         "MD024": false,
         "MD033": {
