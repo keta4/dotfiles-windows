@@ -1,372 +1,372 @@
 {
-    "buckets": [
-        {
-            "Name": "main",
-            "Source": "https://github.com/ScoopInstaller/Main",
-            "Updated": "2024-10-06T09:37:38+09:00",
-            "Manifests": 1343
-        },
-        {
-            "Name": "extras",
-            "Source": "https://github.com/ScoopInstaller/Extras",
-            "Updated": "2024-10-06T09:41:01+09:00",
-            "Manifests": 2082
-        },
-        {
-            "Name": "versions",
-            "Source": "https://github.com/ScoopInstaller/Versions",
-            "Updated": "2024-10-06T11:03:34+09:00",
-            "Manifests": 469
-        },
-        {
-            "Name": "java",
-            "Source": "https://github.com/ScoopInstaller/Java",
-            "Updated": "2024-10-04T21:34:11+09:00",
-            "Manifests": 293
-        },
-        {
-            "Name": "Ash258",
-            "Source": "https://github.com/Ash258/Scoop-Ash258.git",
-            "Updated": "2024-10-06T05:01:49+09:00",
-            "Manifests": 353
-        }
-    ],
     "apps": [
         {
-            "Updated": "2024-10-04T11:41:34.8204918+09:00",
+            "Updated": "2024-12-01T13:33:30.2029473+09:00",
             "Source": "main",
-            "Version": "24.08",
+            "Info": "",
             "Name": "7zip",
-            "Info": ""
+            "Version": "24.09"
         },
         {
             "Updated": "2024-10-04T11:41:29.1091149+09:00",
             "Source": "main",
-            "Version": "1.37.0-1",
+            "Info": "",
             "Name": "aria2",
-            "Info": ""
+            "Version": "1.37.0-1"
         },
         {
-            "Updated": "2024-10-04T11:46:20.4786693+09:00",
+            "Updated": "2025-01-08T19:57:28.1129051+09:00",
             "Source": "main",
-            "Version": "0.24.0",
+            "Info": "",
             "Name": "bat",
-            "Info": ""
+            "Version": "0.25.0"
         },
         {
-            "Updated": "2024-10-04T11:46:23.2878405+09:00",
+            "Updated": "2024-10-16T22:12:32.9002507+09:00",
             "Source": "extras",
-            "Version": "4.6.0",
+            "Info": "",
             "Name": "bleachbit",
-            "Info": ""
+            "Version": "4.6.2"
         },
         {
-            "Updated": "2024-10-04T11:46:27.8140229+09:00",
+            "Updated": "2025-04-20T09:06:25.8482708+09:00",
             "Source": "main",
-            "Version": "1.44.0",
+            "Info": "",
             "Name": "broot",
-            "Info": ""
+            "Version": "1.46.0"
         },
         {
-            "Updated": "2024-10-04T11:42:34.1309711+09:00",
+            "Updated": "2025-04-20T09:06:27.683146+09:00",
             "Source": "main",
-            "Version": "2.52.3",
+            "Info": "",
             "Name": "chezmoi",
-            "Info": ""
+            "Version": "2.62.2"
         },
         {
-            "Updated": "2024-10-04T11:42:48.8661863+09:00",
+            "Updated": "2025-04-20T09:06:46.2750095+09:00",
             "Source": "extras",
-            "Version": "129.0.6668.90-r1343869",
+            "Info": "",
             "Name": "chromium",
-            "Info": ""
+            "Version": "135.0.7049.96-r1427262"
         },
         {
             "Updated": "2024-10-04T11:46:30.6253911+09:00",
             "Source": "extras",
-            "Version": "1.18.1",
+            "Info": "",
             "Name": "coretemp",
-            "Info": ""
+            "Version": "1.18.1"
         },
         {
-            "Updated": "2024-10-04T11:46:34.8021393+09:00",
+            "Updated": "2025-03-22T14:51:36.7367339+09:00",
             "Source": "extras",
-            "Version": "2.11",
+            "Info": "",
             "Name": "cpu-z",
-            "Info": ""
+            "Version": "2.15"
         },
         {
-            "Updated": "2024-10-04T11:43:12.4151122+09:00",
+            "Updated": "2025-03-12T16:06:14.3134103+09:00",
             "Source": "extras",
-            "Version": "9.4.4",
+            "Info": "",
             "Name": "crystaldiskinfo",
-            "Info": ""
+            "Version": "9.6.3"
         },
         {
-            "Updated": "2024-10-04T11:43:15.1296031+09:00",
+            "Updated": "2024-11-28T13:16:59.2699578+09:00",
             "Source": "extras",
-            "Version": "8.0.5",
+            "Info": "",
             "Name": "crystaldiskmark",
-            "Info": ""
+            "Version": "8.0.6"
         },
         {
-            "Updated": "2024-10-04T11:46:36.36498+09:00",
+            "Updated": "2025-01-03T13:45:06.0278142+09:00",
             "Source": "main",
-            "Version": "1.3.3",
+            "Info": "",
             "Name": "csview",
-            "Info": ""
+            "Version": "1.3.4"
         },
         {
-            "Updated": "2024-10-04T11:42:30.5511173+09:00",
+            "Updated": "2025-04-20T09:06:47.5446849+09:00",
             "Source": "main",
-            "Version": "3.14",
+            "Info": "",
             "Name": "dark",
-            "Info": ""
+            "Version": "3.14.1"
         },
         {
             "Updated": "2024-10-04T11:46:37.6743399+09:00",
             "Source": "main",
-            "Version": "0.18.2",
+            "Info": "",
             "Name": "delta",
-            "Info": ""
+            "Version": "0.18.2"
         },
         {
-            "Updated": "2024-10-04T11:46:38.7444206+09:00",
+            "Updated": "2025-04-06T13:37:11.6318396+09:00",
             "Source": "main",
-            "Version": "1.1.1",
+            "Info": "",
             "Name": "dust",
-            "Info": ""
+            "Version": "1.2.0"
         },
         {
-            "Updated": "2024-10-04T11:46:39.6529331+09:00",
+            "Updated": "2025-04-20T09:06:49.121959+09:00",
             "Source": "main",
-            "Version": "0.20.1",
+            "Info": "",
             "Name": "eza",
-            "Info": ""
+            "Version": "0.21.1"
         },
         {
             "Updated": "2024-10-04T11:46:41.3391242+09:00",
             "Source": "main",
-            "Version": "10.2.0",
+            "Info": "",
             "Name": "fd",
-            "Info": ""
+            "Version": "10.2.0"
         },
         {
-            "Updated": "2024-10-04T11:46:48.8301177+09:00",
+            "Updated": "2025-02-20T14:57:14.0398588+09:00",
             "Source": "main",
-            "Version": "1.4.3",
+            "Info": "",
             "Name": "flac",
-            "Info": ""
+            "Version": "1.5.0"
         },
         {
-            "Updated": "2024-10-04T11:48:36.4382907+09:00",
+            "Updated": "2025-04-06T13:37:14.8478+09:00",
             "Source": "main",
-            "Version": "0.55.0",
+            "Info": "",
             "Name": "fzf",
-            "Info": ""
+            "Version": "0.61.1"
         },
         {
             "Updated": "2024-10-04T11:43:03.3695658+09:00",
             "Source": "extras",
-            "Version": "1.5.2.165",
+            "Info": "",
             "Name": "geekuninstaller",
-            "Info": ""
+            "Version": "1.5.2.165"
         },
         {
             "Updated": "2024-10-04T11:48:37.7430422+09:00",
             "Source": "main",
-            "Version": "1.4.2",
+            "Info": "",
             "Name": "genact",
-            "Info": ""
+            "Version": "1.4.2"
         },
         {
-            "Updated": "2024-10-04T11:42:50.2975885+09:00",
+            "Updated": "2025-03-31T09:24:51.9382639+09:00",
             "Source": "main",
-            "Version": "1.6.2",
+            "Info": "",
             "Name": "ghq",
-            "Info": ""
+            "Version": "1.8.0"
         },
         {
-            "Updated": "2024-10-04T11:42:00.9499163+09:00",
+            "Updated": "2025-03-22T14:52:06.4923229+09:00",
             "Source": "main",
-            "Version": "2.46.2",
+            "Info": "",
             "Name": "git",
-            "Info": ""
+            "Version": "2.49.0"
         },
         {
-            "Updated": "2024-10-04T11:48:39.3497017+09:00",
+            "Updated": "2025-01-28T09:29:43.5637355+09:00",
             "Source": "main",
-            "Version": "0.26.3",
+            "Info": "",
             "Name": "gitui",
-            "Info": ""
+            "Version": "0.27.0"
         },
         {
-            "Updated": "2024-10-04T11:49:48.6054964+09:00",
+            "Updated": "2025-03-06T17:00:22.2679376+09:00",
             "Source": "main",
-            "Version": "8.10.2",
+            "Info": "",
             "Name": "gradle",
-            "Info": ""
+            "Version": "8.13"
         },
         {
             "Updated": "2024-10-04T11:49:49.6941975+09:00",
             "Source": "main",
-            "Version": "1.4.5",
+            "Info": "",
             "Name": "grex",
-            "Info": ""
+            "Version": "1.4.5"
         },
         {
-            "Updated": "2024-10-04T11:49:50.7964971+09:00",
+            "Updated": "2024-11-18T13:09:44.7609513+09:00",
             "Source": "main",
-            "Version": "1.18.0",
+            "Info": "",
             "Name": "hyperfine",
-            "Info": ""
+            "Version": "1.19.0"
         },
         {
-            "Updated": "2024-10-04T11:42:31.6996742+09:00",
+            "Updated": "2025-03-22T14:52:07.6807012+09:00",
             "Source": "main",
-            "Version": "0.50",
+            "Info": "",
             "Name": "innounp",
-            "Info": ""
+            "Version": "2.64.3"
         },
         {
             "Updated": "2024-10-04T11:49:52.065141+09:00",
             "Source": "main",
-            "Version": "1.7.1",
+            "Info": "",
             "Name": "jq",
-            "Info": ""
+            "Version": "1.7.1"
         },
         {
-            "Updated": "2024-10-04T11:49:58.2124372+09:00",
+            "Updated": "2025-03-22T14:52:17.2933432+09:00",
             "Source": "main",
-            "Version": "2.0.20",
+            "Info": "",
             "Name": "kotlin",
-            "Info": ""
+            "Version": "2.1.20"
         },
         {
-            "Updated": "2024-10-04T11:50:16.3994998+09:00",
+            "Updated": "2025-03-22T14:52:31.2387155+09:00",
             "Source": "extras",
-            "Version": "3.62.0",
+            "Info": "",
             "Name": "losslesscut",
-            "Info": ""
+            "Version": "3.65.0"
         },
         {
-            "Updated": "2024-10-04T11:50:24.3698998+09:00",
+            "Updated": "2025-03-31T09:24:58.516108+09:00",
             "Source": "main",
-            "Version": "0.10.2",
+            "Info": "",
             "Name": "neovim",
-            "Info": ""
+            "Version": "0.11.0"
         },
         {
             "Updated": "2024-10-04T11:50:24.8177451+09:00",
             "Source": "extras",
-            "Version": "1.1.0",
+            "Info": "",
             "Name": "posh-git",
-            "Info": ""
+            "Version": "1.1.0"
         },
         {
-            "Updated": "2024-10-04T11:50:26.6429928+09:00",
+            "Updated": "2025-03-31T09:25:00.3657135+09:00",
             "Source": "main",
-            "Version": "0.14.6",
+            "Info": "",
             "Name": "procs",
-            "Info": ""
+            "Version": "0.14.10"
         },
         {
             "Updated": "2024-10-04T11:50:44.4225047+09:00",
             "Source": "extras",
-            "Version": "2.59.0.0",
+            "Info": "",
             "Name": "registry-finder",
-            "Info": ""
+            "Version": "2.59.0.0"
         },
         {
             "Updated": "2024-10-04T11:42:51.6049535+09:00",
             "Source": "main",
-            "Version": "14.1.1",
+            "Info": "",
             "Name": "ripgrep",
-            "Info": ""
+            "Version": "14.1.1"
         },
         {
-            "Updated": "2024-10-04T11:50:45.6532485+09:00",
+            "Updated": "2025-04-10T20:37:38.5217231+09:00",
             "Source": "extras",
-            "Version": "4.5",
+            "Info": "",
             "Name": "rufus",
-            "Info": ""
+            "Version": "4.7"
         },
         {
             "Updated": "2024-10-04T11:50:47.3654772+09:00",
             "Source": "main",
-            "Version": "1.0.0",
+            "Info": "",
             "Name": "sd",
-            "Info": ""
+            "Version": "1.0.0"
         },
         {
-            "Updated": "2024-10-04T11:51:12.1818817+09:00",
+            "Updated": "2025-03-06T17:00:42.6039974+09:00",
             "Source": "extras",
-            "Version": "1.13.4.771",
+            "Info": "",
             "Name": "snappy-driver-installer-origin",
-            "Info": ""
+            "Version": "1.15.1.813"
         },
         {
             "Updated": "2024-10-04T11:42:53.7102873+09:00",
             "Source": "extras",
-            "Version": "1.0.97",
+            "Info": "",
             "Name": "sophiapp",
-            "Info": ""
+            "Version": "1.0.97"
         },
         {
-            "Updated": "2024-10-04T11:42:55.5123044+09:00",
+            "Updated": "2025-01-28T09:31:25.882868+09:00",
             "Source": "main",
-            "Version": "1.20.1",
+            "Info": "",
             "Name": "starship",
-            "Info": ""
+            "Version": "1.22.1"
         },
         {
             "Updated": "2024-10-04T11:41:27.9203333+09:00",
             "Source": "main",
-            "Version": "0.2020.01.26",
+            "Info": "",
             "Name": "sudo",
-            "Info": ""
+            "Version": "0.2020.01.26"
         },
         {
             "Updated": "2024-10-04T11:51:12.6206651+09:00",
             "Source": "extras",
-            "Version": "0.11.0",
+            "Info": "",
             "Name": "terminal-icons",
-            "Info": ""
+            "Version": "0.11.0"
         },
         {
             "Updated": "2024-10-04T11:51:14.6418597+09:00",
             "Source": "main",
-            "Version": "12.1.2",
+            "Info": "",
             "Name": "tokei",
-            "Info": ""
+            "Version": "12.1.2"
         },
         {
-            "Updated": "2024-10-04T11:42:57.3236179+09:00",
+            "Updated": "2025-04-06T13:37:17.2467923+09:00",
             "Source": "main",
-            "Version": "15.0.0",
+            "Info": "",
             "Name": "topgrade",
-            "Info": ""
+            "Version": "16.0.3"
         },
         {
             "Updated": "2024-10-04T11:42:58.2257707+09:00",
             "Source": "main",
-            "Version": "2.20",
+            "Info": "",
             "Name": "which",
-            "Info": ""
+            "Version": "2.20"
         },
         {
             "Updated": "2024-10-04T11:51:16.2269311+09:00",
             "Source": "main",
-            "Version": "0.13.0",
+            "Info": "",
             "Name": "xsv",
-            "Info": ""
+            "Version": "0.13.0"
         },
         {
-            "Updated": "2024-10-04T11:51:17.7594591+09:00",
+            "Updated": "2025-02-20T14:58:01.4008361+09:00",
             "Source": "main",
-            "Version": "0.9.6",
+            "Info": "",
             "Name": "zoxide",
-            "Info": ""
+            "Version": "0.9.7"
+        }
+    ],
+    "buckets": [
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main",
+            "Updated": "2025-04-20T05:27:27+09:00",
+            "Manifests": 1388
+        },
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": "2025-04-20T05:44:03+09:00",
+            "Manifests": 2152
+        },
+        {
+            "Name": "versions",
+            "Source": "https://github.com/ScoopInstaller/Versions",
+            "Updated": "2025-04-20T05:34:58+09:00",
+            "Manifests": 489
+        },
+        {
+            "Name": "java",
+            "Source": "https://github.com/ScoopInstaller/Java",
+            "Updated": "2025-04-18T10:26:34+09:00",
+            "Manifests": 299
+        },
+        {
+            "Name": "Ash258",
+            "Source": "https://github.com/Ash258/Scoop-Ash258.git",
+            "Updated": "2025-04-20T06:01:41+09:00",
+            "Manifests": 359
         }
     ]
 }

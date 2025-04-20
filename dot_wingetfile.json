@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-10-06T13:57:47.820-00:00",
+	"CreationDate" : "2025-04-20T09:20:40.741-00:00",
 	"Sources" : 
 	[
 		{
@@ -13,19 +13,22 @@
 					"PackageIdentifier" : "Mozilla.Firefox"
 				},
 				{
-					"PackageIdentifier" : "Inkscape.Inkscape"
+					"PackageIdentifier" : "Microsoft.OneDrive"
 				},
 				{
-					"PackageIdentifier" : "TheDocumentFoundation.LibreOffice"
+					"PackageIdentifier" : "Google.Chrome"
+				},
+				{
+					"PackageIdentifier" : "Inkscape.Inkscape"
 				},
 				{
 					"PackageIdentifier" : "Giorgiotani.Peazip"
 				},
 				{
-					"PackageIdentifier" : "voidtools.Everything"
+					"PackageIdentifier" : "TheDocumentFoundation.LibreOffice"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome"
+					"PackageIdentifier" : "voidtools.Everything"
 				},
 				{
 					"PackageIdentifier" : "Adobe.Acrobat.Reader.64-bit"
@@ -40,13 +43,10 @@
 					"PackageIdentifier" : "HandBrake.HandBrake"
 				},
 				{
-					"PackageIdentifier" : "Samsung.SmartSwitch"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.Edge"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1"
@@ -58,16 +58,16 @@
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
 				},
 				{
 					"PackageIdentifier" : "Bitwarden.Bitwarden"
@@ -82,16 +82,13 @@
 					"PackageIdentifier" : "Google.PlatformTools"
 				},
 				{
-					"PackageIdentifier" : "JanDeDobbeleer.OhMyPosh"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.OneDrive"
-				},
-				{
 					"PackageIdentifier" : "Rustlang.Rustup"
 				},
 				{
 					"PackageIdentifier" : "Meltytech.Shotcut"
+				},
+				{
+					"PackageIdentifier" : "astral-sh.uv"
 				},
 				{
 					"PackageIdentifier" : "KDE.Kdenlive"
@@ -139,5 +136,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.8.1911"
+	"WinGetVersion" : "1.10.340"
 }
