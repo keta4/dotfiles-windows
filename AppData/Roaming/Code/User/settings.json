@@ -390,10 +390,10 @@
     // Controls the font family used in the Markdown preview.
     "markdown.preview.fontFamily": "Consolas, 'Courier New', monospace",
     "markdown-pdf.displayHeaderFooter": false,
-    "markdown-pdf.margin.bottom": "0.8cm",
-    "markdown-pdf.margin.left": "0.8cm",
-    "markdown-pdf.margin.right": "0.8cm",
-    "markdown-pdf.margin.top": "1.2cm",
+    "markdown-pdf.margin.bottom": "1cm",
+    "markdown-pdf.margin.left": "1cm",
+    "markdown-pdf.margin.right": "1cm",
+    "markdown-pdf.margin.top": "1.5cm",
     "markdownlint.config": {
         "MD024": false,
         "MD033": {
