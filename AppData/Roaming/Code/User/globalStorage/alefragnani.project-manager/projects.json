@@ -33,5 +33,12 @@
 		"paths": [],
 		"tags": [],
 		"enabled": true
+	},
+	{
+		"name": "home-visit",
+		"rootPath": "c:\\Users\\keta\\ghq\\github.com\\keta4\\home-visit",
+		"paths": [],
+		"tags": [],
+		"enabled": true
 	}
 ]
